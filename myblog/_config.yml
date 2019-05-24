@@ -17,9 +17,28 @@ title: Cody's Collection
 email: codyrodgers92@icloud.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: codyrodgers92
-github_username:  codydalerodgers
-instagram_username: codydalerodgers
+
+social:
+  -
+    website: twitter
+    url: https://twitter.com/
+    name: twitter
+    username: codyrodgers92
+  -
+    website: instagram
+    url: https://instagram.com/
+    name: instagram
+    username: codyrodgers92
+  -
+    website: github
+    url: https://github.com/
+    name: github
+    username: codyrodgers92
+  -
+    website: linkedin
+    url: https://linkedin.com/in/
+    name: linkedin
+    username: cody-rodgers-9554ba58
 
 # Build settings
 markdown: kramdown

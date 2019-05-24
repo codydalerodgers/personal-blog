@@ -129,8 +129,7 @@
     padding-left: 15px;
 }
 .footer-col-1 {
-    width: -webkit-calc(35% - (30px / 2));
-    width: calc(50% - (30px / 2));
+    display: none;
 }
 .footer-col-2 {
     width: -webkit-calc(20% - (30px / 2));
@@ -140,10 +139,6 @@
     display: none;
 }
 @media screen and (max-width: 800px) {
-    .footer-col-1 {
-        width: -webkit-calc(50% - (30px / 2));
-        width: calc(50% - (30px / 2));
-    }
     .footer-col-2 {
         width: -webkit-calc(50% - (30px / 2));
         width: calc(50% - (30px / 2));
@@ -304,5 +299,5 @@
 }
 
 .social-media-list li + li {
-  padding-top: 5px;
+    padding-top: 5px;
 }
