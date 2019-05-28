@@ -37,7 +37,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #ddd;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -302,9 +302,19 @@
     padding-top: 5px;
 }
 
+
 .svg-icon {
   display: inline-block;
   width: 19px;
   height: 17px;
   vertical-align: middle;
+}
+
+
+.site-header,.html,.body {
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 2em;
+  font-size: 18px;
+  background: #222;
+  color: #aaa
 }
