@@ -1,0 +1,284 @@
+.site-header {
+  border-bottom: 1px solid $grey-color-light;
+  border-top: 5px solid $grey-color-dark;
+  min-height: 125px;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  float: left;
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  line-height: 56px;
+  margin-bottom: 0;
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
+}
+
+.site-nav {
+  float: right;
+  line-height: 56px;
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: #ddd;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  @include media-query($on-palm) {
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    position: absolute;
+    right: $spacing-unit / 2;
+    text-align: right;
+    top: 9px;
+
+    .menu-icon {
+      display: block;
+      float: right;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+      width: 36px;
+
+      > svg {
+        height: 15px;
+        width: 18px;
+
+        path {
+          fill: $grey-color-dark;
+        }
+      }
+    }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 20px;
+        }
+    }
+}
+
+.no_style_link {
+    color: inherit;
+    text-decoration: none;
+}
+.no_style_link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.no_style_link:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+    flex-shrink: 0;
+}
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+    flex: 1 0 auto;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+  h4 {
+    font-size: 20px;
+
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+}
+
+.error {
+  text-align: center;
+
+  h1 {
+    font-size: 200px;
+  }
+}
+
+//lists
+.list-header {
+  margin-bottom: $spacing-unit;
+}
+
+.list-title {
+  font-size: 30px;
+  line-height: 1;
+}
+
+.list-content {
+  margin-bottom: $spacing-unit;
+  line-height: 16px;
+  font-family: monospace;
+  letter-spacing: -.5px;
+
+  h2 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+//quotes
+.quotes-div {
+  margin-top: 25px;
+}
+
+.quote-data {
+  text-align: right;
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+.quote-subject {
+  font-style: italic;
+}
+
+.quote-author {
+  font-weight: bold;
+}
+
+.quote-content {
+  margin-top: 40px;
+  text-indent: 10px;
+  text-align: justify;
+}
+
+//year lists
+.year-list ul {
+  list-style-type: circle;
+}
+
+.social-media-list li + li {
+  padding-top: 5px;
+}
+
+
+.svg-icon {
+  display: inline-block;
+  width: 19px;
+  height: 17px;
+  vertical-align: middle;
+}
+
+
+.site-header,.html,.body {
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 2em;
+  font-size: 18px;
+  background: #222;
+  color: #aaa
+}
