@@ -28,7 +28,7 @@ social:
     website: instagram
     url: https://instagram.com/
     name: instagram
-    username: codyrodgers92
+    username: codydalerodgers
   -
     website: github
     url: https://github.com/
@@ -45,6 +45,45 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Cody Rodgers"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      author: "Cody Rodgers"
+
+collections:
+
+    books:
+      output: true
+      permalink: /books/:path/
+
+    films:
+      output: true
+      permalink: /films/:path/
+
+    games:
+      output: true
+      permalink: /games/:path/
+
+    podcasts:
+      output: true
+      permalink: /podcasts/:path/
+
+    shows:
+      output: true
+      permalink: /shows/:path/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
