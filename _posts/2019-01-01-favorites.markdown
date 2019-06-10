@@ -6,25 +6,25 @@ categories: favorites
 ---
 
 ## Top Ten Films
-`01` <b>The Lord of the Rings: The Fellowship of the Ring</b> (2001)
+`01` <a href="https://www.imdb.com/title/tt0120737/?ref_=nv_sr_1?ref_=nv_sr_1"><b>The Lord of the Rings: The Fellowship of the Ring</b></a> (2001)
 
-`02` <b>King Kong</b> (2005)
+`02` <a href="https://www.imdb.com/title/tt0360717/?ref_=nv_sr_1?ref_=nv_sr_1"><b>King Kong</b></a> (2005)
 
-`03` <b>Lolita</b> (1997)
+`03` <a href="https://www.imdb.com/title/tt0119558/?ref_=nv_sr_1?ref_=nv_sr_1"><b>Lolita</b></a> (1997)
 
-`04` <b>The Prince of Egypt</b> (1998)
+`04` <a href="https://www.imdb.com/title/tt0120794/?ref_=nv_sr_1?ref_=nv_sr_1"><b>The Prince of Egypt</b></a> (1998)
 
-`05` <b>The Dark Knight</b> (2008)
+`05` <a href="https://www.imdb.com/title/tt0468569/?ref_=nv_sr_1?ref_=nv_sr_1"><b>The Dark Knight</b></a> (2008)
 
-`06` <b>Titanic</b> (1997)
+`06` <a href="https://www.imdb.com/title/tt0120338/?ref_=nv_sr_1?ref_=nv_sr_1"><b>Titanic</b></a> (1997)
 
-`07` <b>Stand By Me</b> (1986)
+`07` <a href="https://www.imdb.com/title/tt0092005/?ref_=nv_sr_1?ref_=nv_sr_1"><b>Stand By Me</b></a> (1986)
 
-`08` <b>Star Wars: The Empire Strikes Back</b> (1980)
+`08` <a href="https://www.imdb.com/title/tt0080684/?ref_=nv_sr_1?ref_=nv_sr_1"><b>Star Wars: The Empire Strikes Back</b></a> (1980)
 
-`09` <b>The Shining</b> (1980)
+`09` <a href="https://www.imdb.com/title/tt0081505/?ref_=nv_sr_1?ref_=nv_sr_1"><b>The Shining</b></a> (1980)
 
-`10` <b>Interstellar</b> (2014)
+`10` <a href="https://www.imdb.com/title/tt0816692/?ref_=nv_sr_1?ref_=nv_sr_1"><b>Interstellar</b></a> (2014)
 
 ## Top Ten Books
 `01` <b>The Lord of the Rings</b> by _J.R.R. Tolkien_
