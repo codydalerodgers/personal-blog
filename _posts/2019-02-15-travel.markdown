@@ -1,0 +1,104 @@
+---
+layout: post
+title:  "Places Traveled"
+date:   2019-02-15 11:17:00 -0500
+categories: travel
+---
+
+## Central America
+	Bahamas
+	Cabo San Lucas
+	Costa Rica
+	Mexico
+	- Cancun
+	- Mazatlán
+	- Mexico City
+	- Playa Del Carmen
+	St. Croix
+
+## Europe
+	Bosnia
+	Croatia
+	- Dubrovnik
+	- Split
+	France
+	- Paris
+	- Versailles
+	Greece
+	- Athens
+	- Santorini
+	Herzegovina
+	Iceland
+	- Reykjavik
+	Ireland
+	- Cliffs of Moher
+	- Dublin
+	- Galway
+	Italy
+	- Florence
+	- Rome
+	- Venice
+	Netherlands
+	- Amsterdam
+	Spain
+	- Barcelona
+	- Madrid
+	Sweden
+	- Stockholm
+	United Kingdom
+	- Callander
+	- Cambridge
+	- Edinburgh
+	- Loch Linnhe
+	- Loch Ness
+	- London
+	- Newcastle Upon Tyne
+	- Windsor
+	Vatican
+
+## North America
+	Canada
+	- Montréal
+	- Toronto
+	United States of America
+	- Alabama
+	- Arizona
+	- Arkansas
+	- California
+	- Colorado
+	- Connecticut
+	- Delaware
+	- Florida
+	- Georgia
+	- Illinois
+	- Indiana
+	- Iowa
+	- Kansas
+	- Kentucky
+	- Louisiana
+	- Maine
+	- Maryland
+	- Massachusetts
+	- Michigan
+	- Minnesota
+	- Mississippi
+	- Missouri
+	- Nebraska
+	- New Hampshire
+	- New Jersey
+	- New York
+	- North Carolina
+	- North Dakota
+	- Ohio
+	- Oklahoma
+	- Pennsylvania
+	- Rhode Island
+	- South Carolina
+	- South Dakota
+	- Tennessee
+	- Texas
+	- Vermont
+	- Virginia
+	- West Virginia
+	- Wisconsin
+	- Wyoming
