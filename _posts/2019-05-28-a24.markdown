@@ -12,47 +12,47 @@ The Last Black Man in San Francisco ∙
 The Farewell ∙
 In Fabric ∙
 The Lighthouse ∙
-**The Souvenir** ∙
+<span class="a24_color">**The Souvenir**</span> ∙
 Under the Silver Lake ∙
 The Hole in the Ground ∙
 Outlaws ∙
-**Climax** ∙
-**High Life** ∙
-**Gloria Bell** ∙
-**The Children Act** ∙
-**Slice** ∙
-**A Prayer Before Dawn** ∙
+<span class="a24_color">**Climax**</span> ∙
+<span class="a24_color">**High Life**</span> ∙
+<span class="a24_color">**Gloria Bell**</span> ∙
+<span class="a24_color">**The Children Act**</span> ∙
+<span class="a24_color">**Slice**</span> ∙
+<span class="a24_color">**A Prayer Before Dawn**</span> ∙
 Never Goin’ Back ∙
-**Woman Walks Ahead** ∙
+<span class="a24_color">**Woman Walks Ahead**</span> ∙
 How To Talk To Girls At Parties ∙
 First Reformed ∙
 Backstabbing for Beginners ∙
 Lean on Pete ∙
 The Last Movie Star ∙
-**Hereditary** ∙
-**The Vanishing of Sidney Hall** ∙
-**Mid90s** ∙
-**Eighth Grade** ∙
-**Hot Summer Nights** ∙
+<span class="a24_color">**Hereditary**</span> ∙
+<span class="a24_color">**The Vanishing of Sidney Hall**</span> ∙
+<span class="a24_color">**Mid90s**</span> ∙
+<span class="a24_color">**Eighth Grade**</span> ∙
+<span class="a24_color">**Hot Summer Nights**</span> ∙
 The Ballad of Lefty Brown ∙
-**The Florida Project** ∙
+<span class="a24_color">**The Florida Project**</span> ∙
 Woodshock ∙
-**Good Time** ∙
-**Menashe** ∙
+<span class="a24_color">**Good Time**</span> ∙
+<span class="a24_color">**Menashe**</span> ∙
 A Ghost Story ∙
 The Exception ∙
 The Lovers ∙
-**Free Fire** ∙
+<span class="a24_color">**Free Fire**</span> ∙
 The Blackcoat’s Daughter ∙
 Trespass Against Us ∙
-**Lady Bird** ∙
-**It Comes At Night** ∙
-**The Disaster Artist** ∙
-**The Killing of a Sacred Deer** ∙
+<span class="a24_color">**Lady Bird**</span> ∙
+<span class="a24_color">**It Comes At Night**</span> ∙
+<span class="a24_color">**The Disaster Artist**</span> ∙
+<span class="a24_color">**The Killing of a Sacred Deer**</span> ∙
 20th Century Women ∙
 The Monster ∙
 Supersonic ∙
-**Moonlight** ∙
+<span class="a24_color">**Moonlight**</span> ∙
 American Honey ∙
 The Sea of Trees ∙
 Morris From America ∙
@@ -61,12 +61,12 @@ De Palma ∙
 The Adderall Diaries ∙
 Remember ∙
 Mojave ∙
-**The Lobster** ∙
-**Green Room** ∙
-**Swiss Army Man** ∙
-**The Witch** ∙
-**Into the Forest** ∙
-**Krisha** ∙
+<span class="a24_color">**The Lobster**</span> ∙
+<span class="a24_color">**Green Room**</span> ∙
+<span class="a24_color">**Swiss Army Man**</span> ∙
+<span class="a24_color">**The Witch**</span> ∙
+<span class="a24_color">**Into the Forest**</span> ∙
+<span class="a24_color">**Krisha**</span> ∙
 Mississippi Grind ∙
 Dark Places ∙
 The End of the Tour ∙
@@ -75,10 +75,10 @@ Slow West ∙
 Cut Bank ∙
 While We’re Young ∙
 Son of a Gun ∙
-**Amy** ∙
-**Ex Machina** ∙
-**Room** ∙
-**A Most Violent Year** ∙
+<span class="a24_color">**Amy**</span> ∙
+<span class="a24_color">**Ex Machina**</span> ∙
+<span class="a24_color">**Room**</span> ∙
+<span class="a24_color">**A Most Violent Year**</span> ∙
 The Captive ∙
 Revenge of the Green Dragons ∙
 Laggies ∙
@@ -86,11 +86,11 @@ Tusk ∙
 The Rover ∙
 Obvious Child ∙
 Locke ∙
-**Under the Skin** ∙
-**Enemy** ∙
-**Life After Beth** ∙
-**The Spectacular Now** ∙
+<span class="a24_color">**Under the Skin**</span> ∙
+<span class="a24_color">**Enemy**</span> ∙
+<span class="a24_color">**Life After Beth**</span> ∙
+<span class="a24_color">**The Spectacular Now**</span> ∙
 Ginger & Rosa ∙
-**A Glimpse Inside the Mind of Charles Swan III** ∙
-**The Bling Ring** ∙
-**Spring Breakers**
+<span class="a24_color">**A Glimpse Inside the Mind of Charles Swan III**</span> ∙
+<span class="a24_color">**The Bling Ring**</span> ∙
+<span class="a24_color">**Spring Breakers**</span>
