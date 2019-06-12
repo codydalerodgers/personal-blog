@@ -293,7 +293,6 @@ table {
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     border-top: 5px solid $grey-color-dark;
-    min-height: 125px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -309,80 +308,34 @@ table {
 #static-header {
     display: none;
     font-size: $base-font-size;
+    text-align: center;
     @include media-query($on-palm) {
         display: block;
     }
 }
 
 .site-nav {
-  float: right;
-  line-height: 56px;
+    float: right;
+    line-height: 56px;
 
-  .nav-trigger {
-    display: none;
-  }
+    .page-link {
+        color: #ddd;
+        line-height: $base-line-height;
 
-  .menu-icon {
-    display: none;
-  }
-
-  .page-link {
-    color: #ddd;
-    line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
-  }
-
-  @include media-query($on-palm) {
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    position: absolute;
-    right: $spacing-unit / 2;
-    text-align: right;
-    top: 9px;
-
-    .menu-icon {
-      display: block;
-      float: right;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-      width: 36px;
-
-      > svg {
-        height: 15px;
-        width: $large-font-size;
-
-        path {
-          fill: $grey-color-dark;
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
         }
-      }
+
+        @include media-query($on-palm) {
+            font-size: $small-font-size;
+        }
     }
 
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
+    @include media-query($on-palm) {
+        line-height: 0px;
+        text-align: center;
+        float: none;
     }
 }
 
@@ -408,10 +361,12 @@ table {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     flex-shrink: 0;
-}
-.footer-heading {
-    font-size: $large-font-size;
-    margin-bottom: 15px;
+
+    @include media-query($on-palm) {
+        line-height: 0px;
+        text-align: center;
+        float: none;
+    }
 }
 
 
