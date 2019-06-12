@@ -5,7 +5,7 @@ date:   2019-05-28 10:07:00 -0500
 categories: films
 ---
 
-<image id="a24_films_logo" width="1200" height="300" x="0" y="0" src="{{ "/assets/images/A24_Films_logo.png" | prepend: site.baseurl }}"></image>
+<image id="a24_films_logo" src="{{ "/assets/images/A24_Films_logo.png" | prepend: site.baseurl }}"></image>
 <br>
 Midsommar ∙
 The Last Black Man in San Francisco ∙
