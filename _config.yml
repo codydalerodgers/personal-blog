@@ -20,17 +20,17 @@ url: "https://codydalerodgers.github.io" # the base hostname & protocol for your
 repository: codydalerodgers/personal-blog
 github: [metadata]
 
-half: 🌗🌑🌑🌑🌑
-one: 🌕🌑🌑🌑🌑
-onehalf: 🌕🌗🌑🌑🌑
-two: 🌕🌕🌑🌑🌑
-twohalf: 🌕🌕🌗🌑🌑
-three: 🌕🌕🌕🌑🌑
-threehalf: 🌕🌕🌕🌗🌑
-four: 🌕🌕🌕🌕🌑
-fourhalf: 🌕🌕🌕🌕🌗
-five: 🌕🌕🌕🌕🌕
-inprogress: (in progress)
+half:       <image class="rating_images" src="/assets/images/half.png"></image>
+one:        <image class="rating_images" src="/assets/images/one.png"></image>
+onehalf:    <image class="rating_images" src="/assets/images/onehalf.png"></image>
+two:        <image class="rating_images" src="/assets/images/two.png"></image>
+twohalf:    <image class="rating_images" src="/assets/images/twohalf.png"></image>
+three:      <image class="rating_images" src="/assets/images/three.png"></image>
+threehalf:  <image class="rating_images" src="/assets/images/threehalf.png"></image>
+four:       <image class="rating_images" src="/assets/images/four.png"></image>
+fourhalf:   <image class="rating_images" src="/assets/images/fourhalf.png"></image>
+five:       <image class="rating_images" src="/assets/images/five.png"></image>
+inprogress: <span style="white-space:nowrap;">(in progress)<span>
 
 social:
   -

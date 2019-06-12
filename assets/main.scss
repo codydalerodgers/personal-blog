@@ -11,6 +11,7 @@ $base-font-size:      16px;
 $base-font-weight:    400;
 $year-link-font-size: $base-font-size * 1.5;
 $small-font-size:     $base-font-size * .875;
+$phone-font-size:     $base-font-size * .75;
 $base-line-height:    1.5;
 
 $spacing-unit:     30px;
@@ -44,6 +45,10 @@ $on-laptop:        800px;
   }
 }
 
+@include media-query($on-palm) {
+    font-size: $small-font-size;
+}
+
 // Reset some basic elements
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -73,6 +78,9 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    @include media-query($on-palm) {
+        font-size: $phone-font-size;
+    }
 }
 
 
@@ -95,6 +103,11 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+}
+
+    
+.rating_images {
+    height: 1em;
 }
 
 
@@ -191,10 +204,13 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: $base-font-size;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
+    @include media-query($on-palm) {
+        font-size: $phone-font-size;
+    }
 }
 
 code {
