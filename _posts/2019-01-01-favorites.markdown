@@ -45,3 +45,24 @@ categories: favorites
 `09` <image id="book_11_22_63" src="{{ "/assets/images/11_22_63.jpg" | prepend: site.baseurl }}"></image><b> 11/22/63</b> by _Stephen King_
 
 `10` <image id="the_idiot" src="{{ "/assets/images/the_idiot.jpg" | prepend: site.baseurl }}"></image><b> The Idiot</b> by _Fyodor Dostoevsky_
+
+## Top Ten Albums
+`01` <image id="ultraviolence" src="{{ "/assets/images/ultraviolence.jpg" | prepend: site.baseurl }}"></image><b> Ultraviolence</b> by _Lana Del Rey_
+
+`02` <image id="born_to_die" src="{{ "/assets/images/born_to_die.png" | prepend: site.baseurl }}"></image><b> Born to Die: The Paradise Edition</b> by _Lana Del Rey_
+
+`03` <image id="demon" src="{{ "/assets/images/demon.jpg" | prepend: site.baseurl }}"></image><b> Demon Days</b> by _The Gorillaz_
+
+`04` <image id="mbdtf" src="{{ "/assets/images/mbdtf.jpg" | prepend: site.baseurl }}"></image><b> My Beauitful Dark Twisted Fantasy</b> by _Kanye West_
+
+`05` <image id="blackstar" src="{{ "/assets/images/blackstar.jpg" | prepend: site.baseurl }}"></image><b> Blackstar</b> by _David Bowie_
+
+`06` <image id="blue" src="{{ "/assets/images/blue.jpg" | prepend: site.baseurl }}"></image><b> Blue Neighbourhood</b> by _Troye Sivan_
+
+`07` <image id="oracular" src="{{ "/assets/images/oracular.jpg" | prepend: site.baseurl }}"></image><b> Oracular Spectacular</b> by _MGMT_
+
+`08` <image id="inquiry" src="{{ "/assets/images/inquiry.png" | prepend: site.baseurl }}"></image><b> A Brief Inquiry Into Online Relationships</b> by _The 1975_
+
+`09` <image id="fever" src="{{ "/assets/images/fever.jpg" | prepend: site.baseurl }}"></image><b> A Fever You Can't Sweat Out</b> by _Panic! At the Disco_
+
+`10` <image id="hunky" src="{{ "/assets/images/hunky.jpg" | prepend: site.baseurl }}"></image><b> Hunky Dory</b> by _David Bowie_
