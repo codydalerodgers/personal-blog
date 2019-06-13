@@ -26,22 +26,22 @@ categories: favorites
 `10` <a href="https://www.imdb.com/title/tt0816692/?ref_=nv_sr_1?ref_=nv_sr_1"><image id="interstellar_poster" src="{{ "/assets/images/interstellar_poster.jpeg" | prepend: site.baseurl }}"></image><b> Interstellar</b></a> (2014)
 
 ## Top Ten Books
-`01` <b>The Lord of the Rings</b> by _J.R.R. Tolkien_
+`01` <image id="lotr_book" src="{{ "/assets/images/lotr_book.jpg" | prepend: site.baseurl }}"></image><b> The Lord of the Rings</b> by _J.R.R. Tolkien_
 
-`02` <b>The Great Gatsby</b> by _F. Scott Fitzgerald_
+`02` <image id="gatsby" src="{{ "/assets/images/gatsby.jpg" | prepend: site.baseurl }}"></image><b> The Great Gatsby</b> by _F. Scott Fitzgerald_
 
-`03` <b>Lolita</b> by _Vladimir Nabokov_
+`03` <image id="lolita_book" src="{{ "/assets/images/lolita_book.jpg" | prepend: site.baseurl }}"></image><b> Lolita</b> by _Vladimir Nabokov_
 
-`04` <b>IT</b> by _Stephen King_
+`04` <image id="it_book" src="{{ "/assets/images/it_book.png" | prepend: site.baseurl }}"></image><b> IT</b> by _Stephen King_
 
-`05` <b>The Lord of the Flies</b> by _William Golding_
+`05` <image id="flies" src="{{ "/assets/images/flies.png" | prepend: site.baseurl }}"></image><b> The Lord of the Flies</b> by _William Golding_
 
-`06` <b>The Silver Chair</b> by _C.S. Lewis_
+`06` <image id="silver_chair" src="{{ "/assets/images/silver_chair.jpg" | prepend: site.baseurl }}"></image><b> The Silver Chair</b> by _C.S. Lewis_
 
-`07` <b>Harry Potter and the Half Blood Prince</b> by _J.K. Rowling_
+`07` <image id="hp_half_blood" src="{{ "/assets/images/hp_half_blood.jpg" | prepend: site.baseurl }}"></image><b> Harry Potter and the Half Blood Prince</b> by _J.K. Rowling_
 
-`08` <b>Animal Farm</b> by _George Orwell_
+`08` <image id="animal_farm" src="{{ "/assets/images/animal_farm.jpg" | prepend: site.baseurl }}"></image><b> Animal Farm</b> by _George Orwell_
 
-`09` <b>11/22/63</b> by _Stephen King_
+`09` <image id="book_11_22_63" src="{{ "/assets/images/11_22_63.jpg" | prepend: site.baseurl }}"></image><b> 11/22/63</b> by _Stephen King_
 
-`10` <b>The Idiot</b> by _Fyodor Dostoevsky_
+`10` <image id="the_idiot" src="{{ "/assets/images/the_idiot.jpg" | prepend: site.baseurl }}"></image><b> The Idiot</b> by _Fyodor Dostoevsky_
