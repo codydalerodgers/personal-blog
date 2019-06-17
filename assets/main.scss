@@ -61,6 +61,7 @@ dl, dd, ol, ul, figure {
  */
 html, body {
     height: 100%;
+    overflow-y: overlay
 }
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
