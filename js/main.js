@@ -47,15 +47,19 @@ window.onload = function() {
     var path = window.location.pathname;
     if (path.includes("books")) {
         setRotatingHeader("read books.");
+        document.getElementById('books-link').style.color = "#fcdd5b";
     }
     else if (path.includes("films")) {
         setRotatingHeader("watched films.");
+        document.getElementById('films-link').style.color = "#fcdd5b";
     }
     else if (path.includes("podcasts")) {
         setRotatingHeader("listened to podcasts.");
+        document.getElementById('podcasts-link').style.color = "#fcdd5b";
     }
     else if (path.includes("shows")) {
         setRotatingHeader("binged tv shows.");
+        document.getElementById('shows-link').style.color = "#fcdd5b";
     }
     else {
         var elements = document.getElementsByClassName('txt-rotate');
