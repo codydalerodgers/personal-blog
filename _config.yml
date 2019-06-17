@@ -30,7 +30,7 @@ threehalf:  <image class="rating_images" src="/assets/images/threehalf.png"></im
 four:       <image class="rating_images" src="/assets/images/four.png"></image>
 fourhalf:   <image class="rating_images" src="/assets/images/fourhalf.png"></image>
 five:       <image class="rating_images" src="/assets/images/five.png"></image>
-inprogress: <span style="white-space:nowrap;">(in progress)<span>
+inprogress: <span style="white-space:nowrap;">✨(in progress)✨<span>
 
 social:
   -
