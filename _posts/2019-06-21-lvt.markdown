@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Lars Von Trier"
+date:   2019-06-21 10:07:00 -0500
+categories: films
+---
+
+<image id="lars_logo" src="{{ "/assets/images/lvt.png" | prepend: site.baseurl }}"></image>
+<br>
+<span class="a24_color">**The House That Jack Built**</span> ∙
+<span class="a24_color">**Nymphomaniac Part II**</span> ∙
+<span class="a24_color">**Nymphomaniac Part I**</span>  ∙
+<span class="a24_color">**Melancholia**</span> ∙
+<span class="a24_color">**Antichrist**</span> ∙
+The Boss of It All ∙
+Manderlay ∙
+Dogville ∙
+Dancer in the Dark ∙
+The Idiots ∙
+Breaking the Waves ∙
+Europa ∙
+Epidemic ∙
+The Element of Crime ∙
+Images of Liberation ∙
+The Orchid Gardener ∙
