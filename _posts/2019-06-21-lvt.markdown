@@ -7,7 +7,7 @@ categories: films
 
 <image id="lars_logo" src="{{ "/assets/images/lvt.png" | prepend: site.baseurl }}"></image>
 <br>
-<p style="text-align: center;">*"A film should be like a rock in the shoe."*</p>
+<p style="text-align: center; font-style: italic">"A film should be like a rock in the shoe."</p>
 <br>
 <br>
 <span class="a24_color">**The House That Jack Built**</span> ∙

@@ -7,7 +7,7 @@ categories: films
 
 <image id="a24_films_logo" src="{{ "/assets/images/A24_Films_logo.png" | prepend: site.baseurl }}"></image>
 <br>
-<p style="text-align: center;">*"It’s crazy that there is an article about a distribution company. That’s completely nuts."*</p>
+<p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
 <br>
 Midsommar ∙
@@ -83,7 +83,7 @@ Son of a Gun ∙
 <span class="a24_color">**Room**</span> ∙
 <span class="a24_color">**A Most Violent Year**</span> ∙
 The Captive ∙
-Revenge of the Green Dragons ∙
+<span class="a24_color">**Revenge of the Green Dragons**</span> ∙
 Laggies ∙
 Tusk ∙
 The Rover ∙
