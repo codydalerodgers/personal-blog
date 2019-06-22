@@ -7,7 +7,8 @@ categories: films
 
 <image id="pasolini_logo" src="{{ "/assets/images/ppp.png" | prepend: site.baseurl }}"></image>
 <br>
-*"It's for everyone. For people like me."*
+<p style="text-align: center;">*"It's for everyone. For people like me."*</p>
+<br>
 <br>
 La Rabbia Di Pasolini (2008) ∙
 <span class="a24_color">**Salo or the 120 Days of Sodom**</span> ∙
