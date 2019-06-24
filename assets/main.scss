@@ -54,15 +54,14 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
-/**
- * Basic styling
- */
 html, body {
     height: 100%;
-    overflow-y: overlay
+    overflow-y: overlay;
+    @include media-query($on-palm) {
+        -webkit-overflow-scrolling: touch;
+    }
 }
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
