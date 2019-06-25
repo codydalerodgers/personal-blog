@@ -677,6 +677,19 @@ table {
   color: #aaa
 }
 
+#expandable-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  width: 100%;
+  padding: 1% 1% 1% 10%;
+  background-color: $grey-color-light;
+  box-shadow: inset 0 0 7px 5px #ddd;
+  border-radius: 5px;
+  line-height: $base-font-size;
+  font-family: monospace;
+}
+
 //syntax-highlighting.scss
 .highlight {
   @extend %vertical-rhythm;
