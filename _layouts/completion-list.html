@@ -2,11 +2,17 @@
 layout: default
 ---
 <article class="list">
-  <header class="list-header">
-    <h1 class="list-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="list-content">
-    {{ content }}
-  </div>
+    <header class="list-header">
+        <h1 class="list-title">{{ page.title }}</h1>
+    </header>
+    <div id="expandable-box">
+        <span style="white-space:nowrap;">{{ site.one }} Awful </span>
+        <span style="white-space:nowrap;">{{ site.two }} Mediocre </span>
+        <span style="white-space:nowrap;">{{ site.three }} Good </span>
+        <span style="white-space:nowrap;">{{ site.four }} Excellent </span>
+        <span style="white-space:nowrap;">{{ site.five }} G.O.A.T. </span>
+    </div>
+    <div class="list-content">
+        {{ content }}
+    </div>
 </article>

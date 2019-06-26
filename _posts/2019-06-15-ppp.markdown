@@ -9,7 +9,6 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"It's for everyone. For people like me."</p>
 <br>
-<br>
 La Rabbia Di Pasolini (2008) ∙
 <span class="ppp_color">**Salo or the 120 Days of Sodom**</span> ∙
 <span class="ppp_color">**Arabian Nights**</span> ∙
@@ -30,4 +29,4 @@ Love Meetings ∙
 La Rabbia (1963) ∙
 La Ricotta ∙
 Mamma Roma ∙
-Accattone ∙
+Accattone
