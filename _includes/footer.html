@@ -5,7 +5,7 @@
       {% for website in site.social %}
         <a href="{{ website.url }}{{ website.username }}"><svg class="svg-icon grey"><use xlink:href="{{ 'assets/minima-social-icons.svg' | relative_url }}#{{ website.name }}"></use></svg>{{ website.name }}</a> |
       {% endfor %}
-      <a href="{{ "favorites/2019/01/01/favorites.html" | prepend: site.baseurl }}">
+      <a href="{{ "/favorites/2019/01/01/favorites.html" | prepend: site.baseurl }}">
         <img src="{{ "/assets/images/trophy.png" | prepend: site.baseurl }}" class="svg-icon">top ten
       </a>
     </p>
