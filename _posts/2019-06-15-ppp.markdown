@@ -10,11 +10,11 @@ categories: films
 <p style="text-align: center; font-style: italic">"It's for everyone. For people like me."</p>
 <br>
 La Rabbia Di Pasolini (2008) ∙
-<span class="a24_color">**Salo or the 120 Days of Sodom**</span> ∙
-<span class="a24_color">**Arabian Nights**</span> ∙
-<span class="a24_color">**The Canterbury Tales**</span> ∙
+<span class="ppp_color">**Salo or the 120 Days of Sodom**</span> ∙
+<span class="ppp_color">**Arabian Nights**</span> ∙
+<span class="ppp_color">**The Canterbury Tales**</span> ∙
 La Mura di Sana'a ∙
-<span class="a24_color">**The Decameron**</span> ∙
+<span class="ppp_color">**The Decameron**</span> ∙
 Notes Towards An African Orestes ∙
 Medea ∙
 Pigsty ∙
@@ -29,4 +29,4 @@ Love Meetings ∙
 La Rabbia (1963) ∙
 La Ricotta ∙
 Mamma Roma ∙
-Accattone ∙
+Accattone

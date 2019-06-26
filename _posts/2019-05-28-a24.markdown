@@ -87,7 +87,7 @@ Laggies ∙
 Tusk ∙
 The Rover ∙
 Obvious Child ∙
-Locke ∙
+<span class="a24_color">**Locke**</span> ∙
 <span class="a24_color">**Under the Skin**</span> ∙
 <span class="a24_color">**Enemy**</span> ∙
 <span class="a24_color">**Life After Beth**</span> ∙
