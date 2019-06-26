@@ -9,7 +9,6 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
-<br>
 Midsommar ∙
 The Last Black Man in San Francisco ∙
 The Farewell ∙
@@ -29,7 +28,7 @@ Outlaws ∙
 <span class="a24_color">**Woman Walks Ahead**</span> ∙
 <span class="a24_color">**How To Talk To Girls At Parties**</span> ∙
 <span class="a24_color">**First Reformed**</span> ∙
-Backstabbing for Beginners ∙
+<span class="a24_color">**Backstabbing for Beginners**</span> ∙
 Lean on Pete ∙
 The Last Movie Star ∙
 <span class="a24_color">**Hereditary**</span> ∙

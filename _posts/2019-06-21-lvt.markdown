@@ -9,7 +9,6 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"A film should be like a rock in the shoe."</p>
 <br>
-<br>
 <span class="a24_color">**The House That Jack Built**</span> ∙
 <span class="a24_color">**Nymphomaniac Part II**</span> ∙
 <span class="a24_color">**Nymphomaniac Part I**</span>  ∙
