@@ -1,5 +1,5 @@
 ---
-layout: completion-list
+layout: post
 title:  "All Time Favorites"
 date:   2019-01-01 11:17:00 -0500
 categories: favorites
