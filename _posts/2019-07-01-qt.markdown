@@ -18,4 +18,4 @@ Death Proof ∙
 <span class="qt_color">**Kill Bill: Vol. 1**</span> ∙
 Jackie Brown ∙
 <span class="qt_color">**Pulp Fiction**</span> ∙
-Reservoir Dogs ∙
+<span class="qt_color">**Reservoir Dogs**</span> ∙
