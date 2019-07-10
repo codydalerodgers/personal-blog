@@ -13,8 +13,8 @@ categories: films
 <span class="a24_color">**The Last Black Man in San Francisco**</span> ∙
 The Farewell ∙
 Skin ∙
+Share ∙
 In Fabric ∙
-The Lighthouse ∙
 <span class="a24_color">**The Souvenir**</span> ∙
 <span class="a24_color">**Under the Silver Lake**</span> ∙
 The Hole in the Ground ∙
@@ -30,6 +30,7 @@ Outlaws ∙
 <span class="a24_color">**How To Talk To Girls At Parties**</span> ∙
 <span class="a24_color">**First Reformed**</span> ∙
 <span class="a24_color">**Backstabbing for Beginners**</span> ∙
+Native Son ∙
 Lean on Pete ∙
 The Last Movie Star ∙
 <span class="a24_color">**Hereditary**</span> ∙
@@ -97,3 +98,19 @@ Obvious Child ∙
 <span class="a24_color">**A Glimpse Inside the Mind of Charles Swan III**</span> ∙
 <span class="a24_color">**The Bling Ring**</span> ∙
 <span class="a24_color">**Spring Breakers**</span>
+<div class="line_break"></div>
+<p style="text-align: center; font-style: italic; font-weight: bold;">Upcoming Projects</p>
+The Lighthouse ∙
+After Yang ∙
+The Death of Dick Long ∙
+False Positive ∙
+First Cow ∙
+Green Knight ∙
+The Kill Team ∙
+Low Tide ∙
+On the Rocks ∙
+The Souvenir Part II ∙
+Uncut Gems ∙
+Lila Neugebauer Project ∙
+Waves ∙
+Zola ∙
