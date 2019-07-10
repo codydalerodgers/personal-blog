@@ -39,7 +39,7 @@ The Last Movie Star ∙
 <span class="a24_color">**Hot Summer Nights**</span> ∙
 The Ballad of Lefty Brown ∙
 <span class="a24_color">**The Florida Project**</span> ∙
-Woodshock ∙
+<span class="a24_color">**Woodshock**</span> ∙
 <span class="a24_color">**Good Time**</span> ∙
 <span class="a24_color">**Menashe**</span> ∙
 A Ghost Story ∙
