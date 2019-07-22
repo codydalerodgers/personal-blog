@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Claire Denis"
+date:   2019-07-21 10:07:00 -0500
+categories: films
+---
+
+<image id="claire_denis_logo" src="{{ "/assets/images/cd.png" | prepend: site.baseurl }}"></image>
+<br>
+<p style="text-align: center; font-style: italic">"The cinema gives pleasure, certainly. But most of all for me, film-making is a journey into the impossible."</p>
+<br>
+<span class="cd_color">**High Life**</span> ∙
+White Material ∙
+35 Shots of Rum ∙
+The Intruder ∙
+Friday Night ∙
+Trouble Every Day ∙
+Beau Travail ∙
+Nénette and Boni ∙
+U.S. Go Home ∙
+I Can't Sleep ∙
+No Fear, No Die ∙
+Chocolat ∙
