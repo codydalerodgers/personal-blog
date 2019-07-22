@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "Stephen King"
+date:   2019-07-22 7:07:00 -0500
+categories: books
+---
+
+<image id="stephen_king_logo" src="{{ "/assets/images/sk.png" | prepend: site.baseurl }}"></image>
+<br>
+<p style="text-align: center; font-style: italic">"Books are the perfect entertainment: no commercials, no batteries, hours of enjoyment for each dollar spent. What I wonder is why everybody doesn't carry a book around for those inevitable dead spots in life."</p>
+<br>
+If It Bleeds ∙ 
+The Institute ∙ 
+The Outsider ∙ 
+<span class="sk_color">**Elevation**</span> ∙ 
+<span class="sk_color">**Gwendy's Button Box**</span> ∙ 
+Sleeping Beauties ∙ 
+End of Watch ∙ 
+Finders Keepers ∙ 
+<span class="sk_color">**Mr. Mercedes**</span> ∙ 
+Revival ∙ 
+<span class="sk_color">**Joyland**</span> ∙ 
+<span class="sk_color">**Doctor Sleep**</span> ∙ 
+The Dark Tower: The Wind Through the Keyhole ∙ 
+<span class="sk_color">**11/22/63**</span> ∙ 
+<span class="sk_color">**Under the Dome**</span> ∙ 
+Duma Key ∙ 
+Blaze ∙ 
+Cell ∙ 
+Lisey's Story ∙ 
+The Colorado Kid ∙ 
+The Dark Tower VI: Song of Susannah ∙ 
+The Dark Tower VII: The Dark Tower ∙ 
+The Dark Tower V: Wolves of the Calla ∙ 
+From a Buick 8 ∙ 
+Dreamcatcher ∙ 
+Black House ∙ 
+The Girl Who Loved Tom Gordon ∙ 
+Bag of Bones ∙ 
+The Dark Tower IV: Wizard and Glass ∙ 
+The Green Mile ∙ 
+Desperation ∙ 
+The Regulators ∙ 
+Rose Madder ∙ 
+Insomnia ∙ 
+Gerald's Game ∙ 
+Dolores Claiborne ∙ 
+The Dark Tower III: The Waste Lands ∙ 
+Needful Things ∙ 
+<span class="sk_color">**The Stand**</span> ∙ 
+The Dark Half ∙ 
+The Dark Tower II: The Drawing of the Three Grant ∙ 
+Misery ∙ 
+The Tommyknockers ∙ 
+<span class="sk_color">**It**</span> ∙ 
+The Talisman ∙ 
+The Eyes of the Dragon ∙ 
+Thinner ∙ 
+Christine ∙ 
+Pet Sematary ∙ 
+Cycle of the Werewolf ∙ 
+<span class="sk_color">**The Running Man**</span> ∙ 
+<span class="sk_color">**The Dark Tower: The Gunslinger**</span> ∙ 
+Roadwork ∙ 
+Cujo ∙ 
+Firestarter ∙ 
+The Long Walk ∙ 
+The Dead Zone ∙ 
+<span class="sk_color">**The Shining**</span> ∙ 
+Rage ∙ 
+'Salem's Lot ∙ 
+<span class="sk_color">**Carrie**</span>
