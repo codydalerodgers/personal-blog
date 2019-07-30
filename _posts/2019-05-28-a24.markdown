@@ -43,7 +43,7 @@ The Ballad of Lefty Brown ∙
 <span class="a24_color">**Woodshock**</span> ∙
 <span class="a24_color">**Good Time**</span> ∙
 <span class="a24_color">**Menashe**</span> ∙
-A Ghost Story ∙
+<span class="a24_color">**A Ghost Story**</span> ∙
 The Exception ∙
 The Lovers ∙
 <span class="a24_color">**Free Fire**</span> ∙

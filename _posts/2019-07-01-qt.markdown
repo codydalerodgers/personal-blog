@@ -9,7 +9,7 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"When I make a movie, I want it to be everything to me. Like I would die for it."</p>
 <br>
-Once Upon A Time... In Hollywood ∙
+<span class="qt_color">**Once Upon A Time... In Hollywood**</span> ∙
 <span class="qt_color">**The Hateful Eight**</span> ∙
 <span class="qt_color">**Django Unchained**</span> ∙
 Inglorious Basterds ∙
