@@ -11,7 +11,7 @@ categories: films
 <br>
 <span class="a24_color">**Midsommar**</span> ∙
 <span class="a24_color">**The Last Black Man in San Francisco**</span> ∙
-The Farewell ∙
+<span class="a24_color">**The Farewell**</span> ∙
 Skin ∙
 Share ∙
 In Fabric ∙
