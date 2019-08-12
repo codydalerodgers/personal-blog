@@ -57,7 +57,7 @@ The Talisman ∙
 The Eyes of the Dragon ∙ 
 Thinner ∙ 
 Christine ∙ 
-Pet Sematary ∙ 
+<span class="sk_color">**Pet Sematary**</span> ∙ 
 Cycle of the Werewolf ∙ 
 <span class="sk_color">**The Running Man**</span> ∙ 
 <span class="sk_color">**The Dark Tower: The Gunslinger**</span> ∙ 

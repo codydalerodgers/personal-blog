@@ -13,7 +13,7 @@ categories: films
 <span class="a24_color">**The Last Black Man in San Francisco**</span> ∙
 <span class="a24_color">**The Farewell**</span> ∙
 Skin ∙
-Share ∙
+<span class="a24_color">**Share**</span> ∙
 In Fabric ∙
 <span class="a24_color">**The Souvenir**</span> ∙
 <span class="a24_color">**Under the Silver Lake**</span> ∙
@@ -44,7 +44,7 @@ The Ballad of Lefty Brown ∙
 <span class="a24_color">**Good Time**</span> ∙
 <span class="a24_color">**Menashe**</span> ∙
 <span class="a24_color">**A Ghost Story**</span> ∙
-The Exception ∙
+<span class="a24_color">**The Exception**</span> ∙
 The Lovers ∙
 <span class="a24_color">**Free Fire**</span> ∙
 <span class="a24_color">**The Blackcoat’s Daughter**</span> ∙
