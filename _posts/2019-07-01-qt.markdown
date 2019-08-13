@@ -12,7 +12,7 @@ categories: films
 <span class="qt_color">**Once Upon A Time... In Hollywood**</span> ∙
 <span class="qt_color">**The Hateful Eight**</span> ∙
 <span class="qt_color">**Django Unchained**</span> ∙
-Inglorious Basterds ∙
+<span class="qt_color">**Inglorious Basterds**</span> ∙
 Death Proof ∙
 <span class="qt_color">**Kill Bill: Vol. 2**</span> ∙
 <span class="qt_color">**Kill Bill: Vol. 1**</span> ∙

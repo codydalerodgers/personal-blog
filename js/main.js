@@ -1,6 +1,6 @@
-var TxtRotate = function(el, toRotate, period) {
+var TxtRotate = function(element, toRotate, period) {
     this.toRotate = toRotate;
-    this.el = el;
+    this.element = element;
     this.loopNum = 0;
     this.period = parseInt(period, 10) || 1000;
     this.txt = '';
@@ -18,7 +18,7 @@ TxtRotate.prototype.tick = function() {
         this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+    this.element.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
     var that = this;
     var delta = 300 - Math.random() * 100;
@@ -44,26 +44,30 @@ function setRotatingHeader(text) {
 }
 
 window.onload = function() {
+    // Selection based on page location
     var path = window.location.pathname;
+    
+    var highlight = "#fcdd5b";
+    var heavy = "600";
     if (path.includes("books")) {
         setRotatingHeader("read books.");
-        document.getElementById('books-link').style.color = "#fcdd5b";
-        document.getElementById('books-link').style.fontWeight = "600";
+        document.getElementById('books-link').style.color = highlight;
+        document.getElementById('books-link').style.fontWeight = heavy;
     }
     else if (path.includes("films")) {
         setRotatingHeader("watched films.");
-        document.getElementById('films-link').style.color = "#fcdd5b";
-        document.getElementById('films-link').style.fontWeight = "600";
+        document.getElementById('films-link').style.color = highlight;
+        document.getElementById('films-link').style.fontWeight = heavy;
     }
     else if (path.includes("podcasts")) {
         setRotatingHeader("listened to podcasts.");
-        document.getElementById('podcasts-link').style.color = "#fcdd5b";
-        document.getElementById('podcasts-link').style.fontWeight = "600";
+        document.getElementById('podcasts-link').style.color = highlight;
+        document.getElementById('podcasts-link').style.fontWeight = heavy;
     }
     else if (path.includes("shows")) {
         setRotatingHeader("binged tv shows.");
-        document.getElementById('shows-link').style.color = "#fcdd5b";
-        document.getElementById('shows-link').style.fontWeight = "600";
+        document.getElementById('shows-link').style.color = highlight;
+        document.getElementById('shows-link').style.fontWeight = heavy;
     }
     else {
         var elements = document.getElementsByClassName('txt-rotate');
