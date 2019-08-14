@@ -16,6 +16,6 @@ categories: films
 Death Proof ∙
 <span class="qt_color">**Kill Bill: Vol. 2**</span> ∙
 <span class="qt_color">**Kill Bill: Vol. 1**</span> ∙
-Jackie Brown ∙
+<span class="qt_color">**Jackie Brown**</span> ∙
 <span class="qt_color">**Pulp Fiction**</span> ∙
 <span class="qt_color">**Reservoir Dogs**</span> ∙
