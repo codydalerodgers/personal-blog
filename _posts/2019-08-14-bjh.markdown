@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Bong Joon-ho"
+date:   2019-08-14 02:07:00 -0500
+categories: films
+---
+
+<image id="bong_joon_logo" src="{{ "/assets/images/bongjoonho.png" | prepend: site.baseurl }}"></image>
+<br>
+<p style="text-align: center; font-style: italic">"My movies are based in genre, which is a universal language. Everybody speaks it."</p>
+<br>
+Parasite ∙
+Okja ∙
+Snowpiercer ∙
+Mother ∙
+<span class="bjh_color">**The Host**</span> ∙
+Memories of Murder ∙
+Barking Dogs Never Bite
