@@ -17,7 +17,7 @@ Skin ∙
 In Fabric ∙
 <span class="a24_color">**The Souvenir**</span> ∙
 <span class="a24_color">**Under the Silver Lake**</span> ∙
-The Hole in the Ground ∙
+<span class="a24_color">**The Hole in the Ground**</span> ∙
 Outlaws ∙
 <span class="a24_color">**Climax**</span> ∙
 <span class="a24_color">**High Life**</span> ∙
@@ -31,8 +31,8 @@ Outlaws ∙
 <span class="a24_color">**First Reformed**</span> ∙
 <span class="a24_color">**Backstabbing for Beginners**</span> ∙
 Native Son ∙
-Lean on Pete ∙
-The Last Movie Star ∙
+<span class="a24_color">**Lean on Pete**</span> ∙
+<span class="a24_color">**The Last Movie Star**</span> ∙
 <span class="a24_color">**Hereditary**</span> ∙
 <span class="a24_color">**The Vanishing of Sidney Hall**</span> ∙
 <span class="a24_color">**Mid90s**</span> ∙
