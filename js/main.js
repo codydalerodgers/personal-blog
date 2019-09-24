@@ -43,6 +43,14 @@ function setRotatingHeader(text) {
     document.getElementById('rotating-header').getElementsByTagName('h1')[0].innerHTML = "Cody's " + text;
 }
 
+function setItemCount() {
+    Array.from(document.getElementsByClassName("item-count")).forEach(function(element) { 
+        $.ajax({ url: element.getAttribute("data-url"), success: function(data) {
+            element.innerHTML = data.split("<code").length-1;
+        }});
+    });
+}
+
 window.onload = function() {
     // Selection based on page location
     var path = window.location.pathname;
@@ -84,4 +92,6 @@ window.onload = function() {
         css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
         document.body.appendChild(css);
     }
+
+    setItemCount();
 };
