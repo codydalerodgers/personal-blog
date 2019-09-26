@@ -9,6 +9,7 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
+The Death of Dick Long ∙
 <span class="a24_color">**Midsommar**</span> ∙
 <span class="a24_color">**The Last Black Man in San Francisco**</span> ∙
 <span class="a24_color">**The Farewell**</span> ∙
@@ -99,7 +100,6 @@ Obvious Child ∙
 <span class="a24_color">**Spring Breakers**</span>
 <div class="line_break"></div>
 <p style="text-align: center; font-style: italic; font-weight: bold;">Upcoming Projects</p>
-The Death of Dick Long (Sep. 27) ∙
 Low Tide (Oct. 4) ∙
 The Lighthouse (Oct. 4) ∙
 The Kill Team (Oct. 25) ∙
