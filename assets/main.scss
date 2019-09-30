@@ -759,6 +759,10 @@ table {
   transition: 2s;
 }
 
+abbr {
+  text-decoration: none;
+}
+
 //syntax-highlighting.scss
 .highlight {
   @extend %vertical-rhythm;
