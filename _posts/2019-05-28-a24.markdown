@@ -9,6 +9,8 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
+Low Tide ∙
+The Lighthouse ∙
 <span class="a24_color">**The Death of Dick Long**</span> ∙
 <span class="a24_color">**Midsommar**</span> ∙
 <span class="a24_color">**The Last Black Man in San Francisco**</span> ∙
@@ -30,7 +32,7 @@ Outlaws ∙
 <span class="a24_color">**How To Talk To Girls At Parties**</span> ∙
 <span class="a24_color">**First Reformed**</span> ∙
 <span class="a24_color">**Backstabbing for Beginners**</span> ∙
-Native Son ∙
+<span class="a24_color">**Native Son**</span> ∙
 <span class="a24_color">**Lean on Pete**</span> ∙
 <span class="a24_color">**The Last Movie Star**</span> ∙
 <span class="a24_color">**Hereditary**</span> ∙
@@ -100,8 +102,6 @@ Obvious Child ∙
 <span class="a24_color">**Spring Breakers**</span>
 <div class="line_break"></div>
 <p style="text-align: center; font-style: italic; font-weight: bold;">Upcoming Projects</p>
-Low Tide (Oct. 4) ∙
-The Lighthouse (Oct. 4) ∙
 The Kill Team (Oct. 25) ∙
 Waves (Nov. 1) ∙
 In Fabric (Dec. 6) ∙
