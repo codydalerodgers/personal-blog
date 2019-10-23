@@ -673,6 +673,20 @@ table {
   line-height: 1;
 }
 
+#filter-button {
+  float: right;
+  padding: 1% 1% 1% 1%;
+  cursor: pointer;
+}
+
+.filter-dropdown {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .list-content {
   margin-bottom: $spacing-unit;
   line-height: 16px;
@@ -743,7 +757,7 @@ table {
   color: #aaa
 }
 
-#expandable-box {
+.expandable-box {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; 
@@ -755,8 +769,10 @@ table {
   border-radius: 5px;
   line-height: $base-font-size;
   font-family: monospace;
-  -webkit-transition: 2s;
-  transition: 2s;
+}
+
+abbr {
+  text-decoration: none;
 }
 
 abbr {

@@ -39,6 +39,10 @@ TxtRotate.prototype.tick = function() {
     }, delta);
 };
 
+function filterButton() {
+    $('.filter-dropdown').slideToggle();
+}
+
 function setRotatingHeader(text) {
     document.getElementById('rotating-header').getElementsByTagName('h1')[0].innerHTML = "Cody's " + text;
 }
