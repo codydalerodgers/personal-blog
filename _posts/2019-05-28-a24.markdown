@@ -10,7 +10,7 @@ categories: films
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
 Low Tide ∙
-The Lighthouse ∙
+<span class="a24_color">**The Lighthouse**</span> ∙
 <span class="a24_color">**The Death of Dick Long**</span> ∙
 <span class="a24_color">**Midsommar**</span> ∙
 <span class="a24_color">**The Last Black Man in San Francisco**</span> ∙
@@ -40,7 +40,7 @@ Outlaws ∙
 <span class="a24_color">**Mid90s**</span> ∙
 <span class="a24_color">**Eighth Grade**</span> ∙
 <span class="a24_color">**Hot Summer Nights**</span> ∙
-The Ballad of Lefty Brown ∙
+<span class="a24_color">**The Ballad of Lefty Brown**</span> ∙
 <span class="a24_color">**The Florida Project**</span> ∙
 <span class="a24_color">**Woodshock**</span> ∙
 <span class="a24_color">**Good Time**</span> ∙
