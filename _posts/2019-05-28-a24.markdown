@@ -15,7 +15,7 @@ Low Tide ∙
 <span class="a24_color">**Midsommar**</span> ∙
 <span class="a24_color">**The Last Black Man in San Francisco**</span> ∙
 <span class="a24_color">**The Farewell**</span> ∙
-Skin ∙
+<span class="a24_color">**Skin**</span> ∙
 <span class="a24_color">**Share**</span> ∙
 <span class="a24_color">**The Souvenir**</span> ∙
 <span class="a24_color">**Under the Silver Lake**</span> ∙
@@ -103,7 +103,7 @@ Obvious Child ∙
 <div class="line_break"></div>
 <p style="text-align: center; font-style: italic; font-weight: bold;">Upcoming Projects</p>
 The Kill Team (Oct. 25) ∙
-Waves (Nov. 1) ∙
+Waves (Nov. 15) ∙
 In Fabric (Dec. 6) ∙
 Uncut Gems (Dec. 13) ∙
 First Cow (Mar. 6, '20) ∙
