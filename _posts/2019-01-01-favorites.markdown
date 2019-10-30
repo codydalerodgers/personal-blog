@@ -57,12 +57,12 @@ categories: favorites
 
 `05` <image id="blackstar" src="{{ "/assets/images/blackstar.jpg" | prepend: site.baseurl }}"></image><b> Blackstar</b> by _David Bowie_
 
-`06` <image id="blue" src="{{ "/assets/images/blue.jpg" | prepend: site.baseurl }}"></image><b> Blue Neighbourhood</b> by _Troye Sivan_
+`06` <image id="norman" src="{{ "/assets/images/nfr.jpg" | prepend: site.baseurl }}"></image><b> Norman Fucking Rockwell!</b> by _Lana Del Rey_
 
-`07` <image id="oracular" src="{{ "/assets/images/oracular.jpg" | prepend: site.baseurl }}"></image><b> Oracular Spectacular</b> by _MGMT_
+`07` <image id="blue" src="{{ "/assets/images/blue.jpg" | prepend: site.baseurl }}"></image><b> Blue Neighbourhood</b> by _Troye Sivan_
 
-`08` <image id="inquiry" src="{{ "/assets/images/inquiry.png" | prepend: site.baseurl }}"></image><b> A Brief Inquiry Into Online Relationships</b> by _The 1975_
+`08` <image id="oracular" src="{{ "/assets/images/oracular.jpg" | prepend: site.baseurl }}"></image><b> Oracular Spectacular</b> by _MGMT_
 
-`09` <image id="fever" src="{{ "/assets/images/fever.jpg" | prepend: site.baseurl }}"></image><b> A Fever You Can't Sweat Out</b> by _Panic! At the Disco_
+`09` <image id="inquiry" src="{{ "/assets/images/inquiry.png" | prepend: site.baseurl }}"></image><b> A Brief Inquiry Into Online Relationships</b> by _The 1975_
 
-`10` <image id="hunky" src="{{ "/assets/images/hunky.jpg" | prepend: site.baseurl }}"></image><b> Hunky Dory</b> by _David Bowie_
+`10` <image id="fever" src="{{ "/assets/images/fever.jpg" | prepend: site.baseurl }}"></image><b> A Fever You Can't Sweat Out</b> by _Panic! At the Disco_
