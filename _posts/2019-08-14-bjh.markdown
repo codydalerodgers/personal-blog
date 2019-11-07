@@ -9,7 +9,7 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"My movies are based in genre, which is a universal language. Everybody speaks it."</p>
 <br>
-Parasite ∙
+<span class="bjh_color">**Parasite**</span> ∙
 Okja ∙
 <span class="bjh_color">**Snowpiercer**</span> ∙
 Mother ∙
