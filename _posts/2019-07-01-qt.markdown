@@ -5,7 +5,7 @@ date:   2019-07-01 10:07:00 -0500
 categories: films
 ---
 
-<image id="quentin_logo" src="{{ "/assets/images/qt.png" | prepend: site.baseurl }}"></image>
+<image id="quentin_logo" class="logoSizing" src="{{ "/assets/images/qt.png" | prepend: site.baseurl }}"></image>
 <br>
 <p style="text-align: center; font-style: italic">"When I make a movie, I want it to be everything to me. Like I would die for it."</p>
 <br>
