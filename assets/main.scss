@@ -2,596 +2,837 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset 'utf-8';
+
+
+
 // Our variables
-$base-font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-$base-font-size: 16px;
-$large-font-size: 18px;
-$base-font-weight: 400;
+$base-font-family:    'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-font-size:      16px;
+$large-font-size:     18px;
+$base-font-weight:    400;
 $year-link-font-size: $base-font-size * 1.5;
-$small-font-size: $base-font-size * .875;
-$phone-font-size: $base-font-size * .75;
-$base-line-height: 1.5;
-$spacing-unit: 30px;
-$text-color: #111;
-$link-color: #20437c;
+$small-font-size:     $base-font-size * .875;
+$phone-font-size:     $base-font-size * .75;
+$base-line-height:    1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$link-color:       #20437c;
 $background-color: #fdfdfd;
-$grey-color: #828282;
-$grey-color-light: lighten($grey-color,40%);
-$grey-color-dark: darken($grey-color,25%);
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
 // Width of the content area
-$content-width: 900px;
-$on-palm: 600px;
-$on-laptop: 900px;
+$content-width:    900px;
+
+$on-palm:          600px;
+$on-laptop:        900px;
+
+
+
 // Use media queries like this:
 // @include media-query($on-palm) {
-wrapperpadding-right:$spacing-unit / 2;
-padding-left:$spacing-unit / 2px;
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 // Reset some basic elements
-body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,hr,dl,dd,ol,ul,figure {
-margin:0;
-padding:0;
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
 }
 
-html,body {
-height:100%;
-overflow-y:overlay;
-includemedia-queryon-palm-webkit-overflow-scrolling:touch;
+html, body {
+    height: 100%;
+    overflow-y: overlay;
+    @include media-query($on-palm) {
+        -webkit-overflow-scrolling: touch;
+    }
 }
 
 body {
-font:$base-font-weight #{$base-font-size;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    @include media-query($on-palm) {
+        font-size: $phone-font-size;
+    }
 }
 
-$base-font-family;
-color: $text-color;
-background-color: $background-color;
--webkit-text-size-adjust: 100%;
--webkit-font-feature-settings: "kern" 1;
--moz-font-feature-settings: "kern" 1;
--o-font-feature-settings: "kern" 1;
-font-feature-settings: "kern" 1;
-font-kerning: normal;
-display: flex;
-min-height: 100vh;
-flex-direction: column;
-@include media-query($on-palm) {
-font-size:$phone-font-size;
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
 }
 
-h1,h2,h3,h4,h5,h6,p,blockquote,pre,ul,ol,dl,figure,%vertical-rhythm {
-margin-bottom:$spacing-unit / 2px;
-}
 
+
+/**
+ * Images
+ */
 img {
-max-width:100%;
-vertical-align:middle;
+    max-width: 100%;
+    vertical-align: middle;
 }
 
+    
 .rating_images {
-height:1em;
+    height: 1em;
 }
 
+
+
+/**
+ * Figures
+ */
 figure > img {
-display:block;
+    display: block;
 }
 
 figcaption {
-font-size:$small-font-size;
+    font-size: $small-font-size;
 }
 
-ul,ol {
-margin-left:$spacing-unit;
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
 }
 
 li {
-ulolmargin-bottom:0;
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
 }
 
-h1,h2,h3,h4,h5,h6 {
-font-weight:$base-font-weight;
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
 }
 
+
+
+/**
+ * Links
+ */
 a {
-color:$link-color;
-text-decoration:none;
-visitedcolor:$link-color;
-}
+    color: $link-color;
+    text-decoration: none;
 
-&:hover {
-color:$link-color;
-text-decoration:underline;
-}
+    &:visited {
+        color: $link-color;
+    }
 
-.social-media-list a:hover .username {
-text-decoration:underline;
+    &:hover {
+        color: $link-color;
+        text-decoration: underline;
+    }
+
+    .social-media-list a:hover {
+        text-decoration: none;
+    }
+
+    .social-media-list a:hover .username {
+      text-decoration: underline;
+    }
 }
 
 .year-link {
-font-size:$year-link-font-size;
+  font-size: $year-link-font-size;
 }
 
+
+
+/**
+ * Blockquotes
+ */
 blockquote {
-color:$grey-color;
-border-left:4px solid $grey-color-light;
-padding-left:$spacing-unit / 2px;
-font-size:$large-font-size;
-letter-spacing:-1px;
-font-style:italic;
-last-childmargin-bottom:0;
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: $large-font-size;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
 }
 
-pre,code {
-font-size:$base-font-size;
-border:1px solid $grey-color-light;
-border-radius:3px;
-background-color:#eef;
-includemedia-queryon-palmfont-size:$phone-font-size;
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: $base-font-size;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+    @include media-query($on-palm) {
+        font-size: $phone-font-size;
+    }
 }
 
 code {
-padding:1px 5px;
+    padding: 1px 5px;
 }
 
 pre {
-overflow-x:auto;
-codeborder:0;
-padding:8px 0;
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
+
+
+/**
+ * Wrapper
+ */
 .wrapper {
-margin-right:auto;
-margin-left:auto;
-includemedia-queryon-laptopmax-width:0;
-max-width:calc(#{$content-width}-(#{$spacing-unit}));
-padding-right:$spacing-unit / 2px;
-padding-left:$spacing-unit / 2px;
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
 }
 
+
+
+/**
+ * Clearfix
+ */
 %clearfix {
-display:table;
-clear:both;
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
 
+
+/**
+ * Tables
+ */
 table {
-margin-bottom:30px;
-width:100%;
-text-align:left;
-color:$grey-color;
-border-collapse:collapse;
-border:1px solid #e8e8e8;
-tr:nth-child(even) {;
-background-color:$grey-color;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: left;
+    color: $grey-color;
+    border-collapse: collapse;
+    border: 1px solid #e8e8e8;
+    tr {
+        &:nth-child(even) {
+            background-color: $grey-color;
+        }
+    }
+    th {
+        padding: 10px 15px;
+        background-color: $background-color;
+        border: 1px solid #dedede;
+        border-bottom-color: $background-color;
+    }
+    td {
+        padding: 10px 15px;
+        border: 1px solid #e8e8e8;
+    }
 }
 
-th {
-background-color:$background-color;
-border:1px solid #dedede;
-border-bottom-color:$background-color;
-padding:10px 15px;
-}
-
-td {
-border:1px solid #e8e8e8;
-padding:10px 15px;
-}
 
 .site-header {
-border-bottom:1px solid $grey-color-light;
-border-top:5px solid $grey-color-dark;
-positioningcontextforthemobilenavigationiconposition:relative;
+    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid $grey-color-dark;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
 }
 
 #rotating-header {
-display:block;
-includemedia-queryon-palmdisplay:none;
+    display: block;
+    @include media-query($on-palm) {
+        display: none;
+    }
 }
 
 #static-header {
-display:none;
-font-size:$base-font-size;
-text-align:center;
-includemedia-queryon-palmdisplay:block;
+    display: none;
+    font-size: $base-font-size;
+    text-align: center;
+    @include media-query($on-palm) {
+        display: block;
+    }
 }
 
 .site-nav {
-float:right;
-page-linkcolor:#ddd;
-line-height:$base-line-height;
-gapsbetweennavitemsbutnotonthelastone:not(:last-child) {;
-margin-right:20px;
+    float: right;
+    line-height: 1em;
+
+    .page-link {
+        color: #ddd;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+
+        @include media-query($on-palm) {
+            font-size: $small-font-size;
+        }
+    }
+
+    @include media-query($on-palm) {
+        line-height: 0px;
+        text-align: center;
+        float: none;
+    }
 }
 
+.no_style_link {
+    color: inherit;
+    text-decoration: none;
+}
+.no_style_link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.no_style_link:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+/**
+ * Site footer
+ */
 .site-footer {
-border-top:1px solid $grey-color-light;
-flex-shrink:0;
-includemedia-queryon-palmline-height:0;
-text-align:center;
-float:none;
-padding:$spacing-unit 0;
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+    flex-shrink: 0;
+
+    @include media-query($on-palm) {
+        line-height: 0px;
+        text-align: center;
+        float: none;
+    }
 }
 
+
+
+/**
+ * Page content
+ */
 .page-content {
-flex:1 0 auto;
-padding:$spacing-unit 0;
+    padding: $spacing-unit 0;
+    flex: 1 0 auto;
 }
 
 .page-heading {
-font-size:20px;
+    font-size: 20px;
 }
 
 .post-list {
-margin-left:0;
-list-style:none;
-limargin-bottom:$spacing-unit;
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
 }
 
 .post-meta {
-font-size:$small-font-size;
-color:$grey-color;
+    font-size: $small-font-size;
+    color: $grey-color;
 }
 
 .post-link {
-display:block;
-font-size:24px;
+    display: block;
+    font-size: 24px;
 }
 
 .a24_color {
-color:#8c080f;
+    color: #8c080f;
 }
 
 .ppp_color {
-color:#088c7f;
+    color: #088c7f;
 }
 
 .lvt_color {
-color:#518c08;
+    color: #518c08;
 }
 
 .qt_color {
-color:#debb30;
+    color: #debb30;
 }
 
 .cd_color {
-color:#ffcba4;
+    color: #ffcba4;
 }
 
 .sk_color {
-color:#c71b27;
+    color: #c71b27;
 }
 
 .bjh_color {
-color:#7b84fc;
+    color: #7b84fc;
 }
 
 .gn_color {
-color:#83f45c;
+    color: #83f45c;
+}
+
+#furiously_happy {
+    width: 60px;
+}
+
+#crime_story {
+    width: 60px;
+}
+
+#lotr_poster {
+    width: 60px;
+}
+
+#king_kong_poster {
+    width: 60px;
+}
+
+#lolita_poster {
+    width: 60px;
+}
+
+#egypt_poster {
+    width: 60px;
+}
+
+#dark_knight_poster {
+    width: 60px;
+}
+
+#titanic_poster {
+    width: 60px;
+}
+
+#stand_poster {
+    width: 60px;
+}
+
+#star_wars_poster {
+    width: 60px;
+}
+
+#shining_poster {
+    width: 60px;
+}
+
+#interstellar_poster {
+    width: 60px;
+}
+
+#lotr_book {
+    width: 60px;
+}
+
+#the_idiot {
+    width: 60px;
+}
+
+#book_11_22_63 {
+    width: 60px;
+}
+
+#animal_farm {
+    width: 60px;
+}
+
+#hp_half_blood {
+    width: 60px;
+}
+
+#silver_chair {
+    width: 60px;
+}
+
+#flies {
+    width: 60px;
+}
+
+#it_book {
+    width: 60px;
+}
+
+#lolita_book {
+    width: 60px;
+}
+
+#gatsby {
+    width: 60px;
+}
+
+#hunky {
+    width: 60px;
+}
+
+#fever {
+    width: 60px;
+}
+
+#inquiry {
+    width: 60px;
+}
+
+#oracular {
+    width: 60px;
+}
+
+#blue {
+    width: 60px;
+}
+
+#blackstar {
+    width: 60px;
+}
+
+#mbdtf {
+    width: 60px;
+}
+
+#demon {
+    width: 60px;
+}
+
+#norman {
+    width: 60px;
+}
+
+#born_to_die {
+    width: 60px;
+}
+
+#ultraviolence {
+    width: 60px;
+}
+
+#pasolini_logo {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lars_logo {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quentin_logo {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #stephen_king_logo {
-width:60%;
-height:auto;
-display:block;
-margin-left:auto;
-margin-right:auto;
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bong_joon_logo {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gaspar-noe-logo {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
 }
 
 .post-title {
-font-size:42px;
-letter-spacing:-1px;
-line-height:1;
-includemedia-queryon-laptopfont-size:36px;
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
 }
 
 .post-content {
-margin-bottom:$spacing-unit;
-h2font-size:32px;
-includemedia-queryon-laptopfont-size:28px;
-}
+    margin-bottom: $spacing-unit;
 
-h3 {
-font-size:26px;
-includemedia-queryon-laptopfont-size:22px;
-}
+    h2 {
+        font-size: 32px;
 
-h4 {
-font-size:20px;
-includemedia-queryon-laptopfont-size:$large-font-size;
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+  h4 {
+    font-size: 20px;
+
+    @include media-query($on-laptop) {
+      font-size: $large-font-size;
+    }
+  }
 }
 
 .error {
-text-align:center;
-h1font-size:200px;
+  text-align: center;
+
+  h1 {
+    font-size: 200px;
+  }
+}
+
+//lists
+.list-header {
+  margin-bottom: $spacing-unit;
 }
 
 .list-title {
-font-size:30px;
-line-height:1;
+  font-size: 30px;
+  line-height: 1;
 }
 
 .list-content {
-margin-bottom:$spacing-unit;
-line-height:16px;
-font-family:monospace;
-letter-spacing:-.5px;
-h2margin-top:30px;
-font-size:20px;
-font-weight:700;
+  margin-bottom: $spacing-unit;
+  line-height: 16px;
+  font-family: monospace;
+  letter-spacing: -.5px;
+
+  h2 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
 
 .line_break {
-border:.5px solid #000;
-width:50%;
-margin:0 auto 10px;
+    border: .5px solid black;
+    width: 50%;
+    margin: 0 auto 10px auto;
 }
 
 //quotes
 .quotes-div {
-margin-top:25px;
+  margin-top: 25px;
 }
 
 .quote-data {
-text-align:right;
-margin-top:-10px;
-font-size:$large-font-size;
+  text-align: right;
+  margin-top: -10px;
+  font-size: $large-font-size;
+}
+
+.quote-subject {
+  font-style: italic;
+}
+
+.quote-author {
+  font-weight: bold;
 }
 
 .quote-content {
-margin-top:40px;
-text-indent:10px;
-text-align:justify;
+  margin-top: 40px;
+  text-indent: 10px;
+  text-align: justify;
 }
 
 //year lists
 .year-list ul {
-list-style-type:circle;
+  list-style-type: circle;
 }
 
 .social-media-list li + li {
-padding-top:5px;
+  padding-top: 5px;
 }
+
 
 .svg-icon {
-display:inline-block;
-width:19px;
-height:17px;
-vertical-align:middle;
+  display: inline-block;
+  width: 19px;
+  height: 17px;
+  vertical-align: middle;
 }
 
+
 .site-header,.html,.body {
-font-family:Raleway, sans-serif;
-font-size:$large-font-size;
-background:#222;
-color:#aaa;
-padding:1em 2em;
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 2em;
+  font-size: $large-font-size;
+  background: #222;
+  color: #aaa
 }
 
 #expandable-box {
--webkit-box-sizing:border-box;
--moz-box-sizing:border-box;
-box-sizing:border-box;
-width:100%;
-text-align:center;
-background-color:$grey-color-light;
-box-shadow:inset 0 0 7px 5px #ddd;
-border-radius:5px;
-line-height:$base-font-size;
-font-family:monospace;
--webkit-transition:2s;
-transition:2s;
-padding:1%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  width: 100%;
+  padding: 1% 1% 1% 1%;
+  text-align: center;
+  background-color: $grey-color-light;
+  box-shadow: inset 0 0 7px 5px #ddd;
+  border-radius: 5px;
+  line-height: $base-font-size;
+  font-family: monospace;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+abbr {
+  text-decoration: none;
 }
 
 //syntax-highlighting.scss
 .highlight {
-background:#fff;
-highlighter-rougebackground:#eef;
-}
+  @extend %vertical-rhythm;
+  background: #fff;
 
-// Comment
-.err {
-color:#a61717;
-background-color:#e3d2d2;
-}
+  .highlighter-rouge & {
+    background: #eef;
+  }
 
-// Comment.Multiline
-.cp {
-color:#999;
-font-weight:700;
-}
-
-// Comment.Single
-.cs {
-color:#999;
-font-weight:700;
-font-style:italic;
-}
-
-// Comment.Special
-.gd {
-color:#000;
-background-color:#fdd;
-}
-
-// Generic.Deleted
-.gd .x {
-color:#000;
-background-color:#faa;
-}
-
-// Generic.Heading
-.gi {
-color:#000;
-background-color:#dfd;
-}
-
-// Generic.Inserted
-.gi .x {
-color:#000;
-background-color:#afa;
-}
-
-// Generic.Inserted.Specific
-.go {
-color:#888;
-}
-
-// Generic.Strong
-.gu {
-color:#aaa;
-}
-
-// Name.Attribute
-.nb {
-color:#0086B3;
-}
-
-// Name.Constant
-.ni {
-color:purple;
-}
-
-// Name.Namespace
-.nt {
-color:navy;
-}
-
-// Operator.Word
-.w {
-color:#bbb;
-}
-
-// Literal.String.Other
-.sr {
-color:#009926;
-}
-
-// Literal.String.Single
-.ss {
-color:#990073;
-}
-
-.social-media-list a:hover,abbr {
-text-decoration:none;
-}
-
-.no_style_link,.no_style_link:hover,.no_style_link:visited {
-color:inherit;
-text-decoration:none;
-}
-
-#furiously_happy,#crime_story,#lotr_poster,#king_kong_poster,#lolita_poster,#egypt_poster,#dark_knight_poster,#titanic_poster,#stand_poster,#star_wars_poster,#shining_poster,#interstellar_poster,#lotr_book,#the_idiot,#book_11_22_63,#animal_farm,#hp_half_blood,#silver_chair,#flies,#it_book,#lolita_book,#gatsby,#hunky,#fever,#inquiry,#oracular,#blue,#blackstar,#mbdtf,#demon,#norman,#born_to_die,#ultraviolence {
-width:60px;
-}
-
-#pasolini_logo,#bong_joon_logo,#gaspar-noe-logo {
-width:50%;
-height:auto;
-display:block;
-margin-left:auto;
-margin-right:auto;
-}
-
-#lars_logo,#quentin_logo {
-width:70%;
-height:auto;
-display:block;
-margin-left:auto;
-margin-right:auto;
-}
-
-.post-header,//lists
-.list-header {
-margin-bottom:$spacing-unit;
-}
-
-.quote-subject,// Generic.Deleted.Specific
-.ge {
-font-style:italic;
-}
-
-.quote-author,// Error
-.k,// Keyword
-.o,// Generic.Prompt
-.gs,// Generic.Traceback
-.kc,// Keyword.Constant
-.kd,// Keyword.Declaration
-.kp,// Keyword.Pseudo
-.kr,// Name.Variable
-.ow {
-font-weight:700;
-}
-
-.c,// Operator
-.cm,// Comment.Preproc
-.c1 {
-color:#998;
-font-style:italic;
-}
-
-// Generic.Emph
-.gr,// Generic.Subheading
-.gt {
-color:#a00;
-}
-
-// Generic.Error
-.gh,// Literal.String.Symbol
-.bp {
-color:#999;
-}
-
-// Generic.Output
-.gp,// Name.Function
-.nn {
-color:#555;
-}
-
-// Keyword.Reserved
-.kt,// Name.Builtin
-.nc {
-color:#458;
-font-weight:700;
-}
-
-// Keyword.Type
-.m,// Text.Whitespace
-.mf,// Literal.Number.Float
-.mh,// Literal.Number.Hex
-.mi,// Literal.Number.Integer
-.mo,// Name.Variable.Instance
-.il {
-color:#099;
-}
-
-// Literal.Number
-.s,// Literal.Number.Oct
-.sb,// Literal.String.Backtick
-.sc,// Literal.String.Char
-.sd,// Literal.String.Doc
-.s2,// Literal.String.Double
-.se,// Literal.String.Escape
-.sh,// Literal.String.Heredoc
-.si,// Literal.String.Interpol
-.sx,// Literal.String.Regex
-.s1 {
-color:#d14;
-}
-
-// Literal.String
-.na,// Name.Class
-.no,// Name.Tag
-.nv,// Name.Builtin.Pseudo
-.vc,// Name.Variable.Class
-.vg,// Name.Variable.Global
-.vi {
-color:teal;
-}
-
-// Name.Entity
-.ne,// Name.Exception
-.nf {
-color:#900;
-font-weight:700;
+  .c     { color: #998; font-style: italic } // Comment
+  .err   { color: #a61717; background-color: #e3d2d2 } // Error
+  .k     { font-weight: bold } // Keyword
+  .o     { font-weight: bold } // Operator
+  .cm    { color: #998; font-style: italic } // Comment.Multiline
+  .cp    { color: #999; font-weight: bold } // Comment.Preproc
+  .c1    { color: #998; font-style: italic } // Comment.Single
+  .cs    { color: #999; font-weight: bold; font-style: italic } // Comment.Special
+  .gd    { color: #000; background-color: #fdd } // Generic.Deleted
+  .gd .x { color: #000; background-color: #faa } // Generic.Deleted.Specific
+  .ge    { font-style: italic } // Generic.Emph
+  .gr    { color: #a00 } // Generic.Error
+  .gh    { color: #999 } // Generic.Heading
+  .gi    { color: #000; background-color: #dfd } // Generic.Inserted
+  .gi .x { color: #000; background-color: #afa } // Generic.Inserted.Specific
+  .go    { color: #888 } // Generic.Output
+  .gp    { color: #555 } // Generic.Prompt
+  .gs    { font-weight: bold } // Generic.Strong
+  .gu    { color: #aaa } // Generic.Subheading
+  .gt    { color: #a00 } // Generic.Traceback
+  .kc    { font-weight: bold } // Keyword.Constant
+  .kd    { font-weight: bold } // Keyword.Declaration
+  .kp    { font-weight: bold } // Keyword.Pseudo
+  .kr    { font-weight: bold } // Keyword.Reserved
+  .kt    { color: #458; font-weight: bold } // Keyword.Type
+  .m     { color: #099 } // Literal.Number
+  .s     { color: #d14 } // Literal.String
+  .na    { color: #008080 } // Name.Attribute
+  .nb    { color: #0086B3 } // Name.Builtin
+  .nc    { color: #458; font-weight: bold } // Name.Class
+  .no    { color: #008080 } // Name.Constant
+  .ni    { color: #800080 } // Name.Entity
+  .ne    { color: #900; font-weight: bold } // Name.Exception
+  .nf    { color: #900; font-weight: bold } // Name.Function
+  .nn    { color: #555 } // Name.Namespace
+  .nt    { color: #000080 } // Name.Tag
+  .nv    { color: #008080 } // Name.Variable
+  .ow    { font-weight: bold } // Operator.Word
+  .w     { color: #bbb } // Text.Whitespace
+  .mf    { color: #099 } // Literal.Number.Float
+  .mh    { color: #099 } // Literal.Number.Hex
+  .mi    { color: #099 } // Literal.Number.Integer
+  .mo    { color: #099 } // Literal.Number.Oct
+  .sb    { color: #d14 } // Literal.String.Backtick
+  .sc    { color: #d14 } // Literal.String.Char
+  .sd    { color: #d14 } // Literal.String.Doc
+  .s2    { color: #d14 } // Literal.String.Double
+  .se    { color: #d14 } // Literal.String.Escape
+  .sh    { color: #d14 } // Literal.String.Heredoc
+  .si    { color: #d14 } // Literal.String.Interpol
+  .sx    { color: #d14 } // Literal.String.Other
+  .sr    { color: #009926 } // Literal.String.Regex
+  .s1    { color: #d14 } // Literal.String.Single
+  .ss    { color: #990073 } // Literal.String.Symbol
+  .bp    { color: #999 } // Name.Builtin.Pseudo
+  .vc    { color: #008080 } // Name.Variable.Class
+  .vg    { color: #008080 } // Name.Variable.Global
+  .vi    { color: #008080 } // Name.Variable.Instance
+  .il    { color: #099 } // Literal.Number.Integer.Long
 }
