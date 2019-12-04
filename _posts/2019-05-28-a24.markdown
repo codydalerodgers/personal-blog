@@ -13,7 +13,7 @@ The Kill Team ∙
 Waves ∙
 In Fabric ∙
 Uncut Gems ∙
-Low Tide ∙
+<span class="a24_color">**Low Tide**</span> ∙
 <span class="a24_color">**The Lighthouse**</span> ∙
 <span class="a24_color">**The Death of Dick Long**</span> ∙
 <span class="a24_color">**Midsommar**</span> ∙
@@ -77,7 +77,7 @@ Mojave ∙
 <span class="a24_color">**The Witch**</span> ∙
 <span class="a24_color">**Into the Forest**</span> ∙
 <span class="a24_color">**Krisha**</span> ∙
-Mississippi Grind ∙
+<span class="a24_color">**Mississippi Grind**</span> ∙
 Dark Places ∙
 The End of the Tour ∙
 Barely Lethal ∙
@@ -91,7 +91,7 @@ Son of a Gun ∙
 <span class="a24_color">**A Most Violent Year**</span> ∙
 The Captive ∙
 <span class="a24_color">**Revenge of the Green Dragons**</span> ∙
-Laggies ∙
+<span class="a24_color">**Laggies**</span> ∙
 <span class="a24_color">**Tusk**</span> ∙
 <span class="a24_color">**The Rover**</span> ∙
 Obvious Child ∙
