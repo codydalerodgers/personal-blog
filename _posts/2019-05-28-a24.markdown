@@ -10,9 +10,9 @@ categories: films
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
 Uncut Gems ∙
-In Fabric ∙
+<span class="a24_color">**In Fabric**</span> ∙
 The Kill Team ∙
-Waves ∙
+<span class="a24_color">**Waves**</span> ∙
 The Elephant Queen ∙
 <span class="a24_color">**Low Tide**</span> ∙
 <span class="a24_color">**The Lighthouse**</span> ∙
@@ -80,7 +80,7 @@ Mojave ∙
 <span class="a24_color">**Krisha**</span> ∙
 <span class="a24_color">**Mississippi Grind**</span> ∙
 Dark Places ∙
-The End of the Tour ∙
+<span class="a24_color">**The End of the Tour**</span> ∙
 Barely Lethal ∙
 <span class="a24_color">**Slow West**</span> ∙
 Cut Bank ∙
@@ -121,4 +121,4 @@ Sour Hearts ∙
 The Souvenir Part II ∙
 Lila Neugebauer Project ∙
 Zola ∙
-Mike Mills Project ∙
+Mike Mills Project
