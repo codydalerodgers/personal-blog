@@ -51,7 +51,6 @@ dl, dd, ol, ul, figure {
 
 html, body {
     height: 100%;
-    overflow-y: overlay;
     @include media-query($on-palm) {
         -webkit-overflow-scrolling: touch;
     }
