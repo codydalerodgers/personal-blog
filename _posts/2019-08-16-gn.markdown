@@ -5,7 +5,7 @@ date:   2019-08-16 02:07:00 -0500
 categories: films
 ---
 
-<image id="gaspar-noe-logo" class="logoSizing" src="{{ "/assets/images/gn.jpg" | prepend: site.baseurl }}"></image>
+<image id="gaspar-noe-logo" class="logoSizing" src="{{ "/assets/images/gn.gif" | prepend: site.baseurl }}"></image>
 <br>
 <p style="text-align: center; font-style: italic">"My characters are never heroic. They are mostly lost and trying to find the right door to open and they end up opening the wrong doors."</p>
 <br>
