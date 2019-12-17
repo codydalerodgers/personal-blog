@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Yorgos Lanthimos"
+date:   2019-12-12 02:07:00 -0500
+categories: films
+---
+
+<image id="yorgos-lanthimos-logo" src="{{ "/assets/images/yl.png" | prepend: site.baseurl }}"></image>
+<br>
+<p style="text-align: center; font-style: italic">"I want you to feel a bit uncomfortable, be able to enjoy them, be intrigued, start to think about the meaning of things - and hopefully by the end of it, you'll have some strong desire to keep thinking about them."</p>
+<br>
+My Best Friend ∙
+Kinetta ∙
+<span class="yl_color">**Dogtooth**</span> ∙
+Attenberg ∙
+Alps ∙
+<span class="yl_color">**The Lobster**</span> ∙
+<span class="yl_color">**The Killing of a Sacred Deer**</span> ∙
+<span class="yl_color">**The Favourite**</span>

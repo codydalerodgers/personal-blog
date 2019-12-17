@@ -5,7 +5,7 @@ date:   2019-01-01 11:17:00 -0500
 categories: favorites
 ---
 ## Top Ten Films
-`01` <a href="https://www.imdb.com/title/tt0120737/?ref_=nv_sr_1?ref_=nv_sr_1"><image id="lotr_poster" class="thumbWidth" src="{{ "/assets/images/lotr_poster.png" | prepend: site.baseurl }}"></image><b> The Lord of the Rings: The Fellowship of the Ring</b></a> (2001)
+`01` <a href="https://www.imdb.com/title/tt0120737/?ref_=nv_sr_1?ref_=nv_sr_1"><image id="lotr_poster" class="thumbWidth" src="{{ "/assets/images/lotr_poster.png" | prepend: site.baseurl }}"></image><b> Lord of the Rings: The Fellowship of the Ring</b></a> (2001)
 
 `02` <a href="https://www.imdb.com/title/tt0360717/?ref_=nv_sr_1?ref_=nv_sr_1"><image id="king_kong_poster" class="thumbWidth" src="{{ "/assets/images/king_kong_poster.png" | prepend: site.baseurl }}"></image><b> King Kong</b></a> (2005)
 
