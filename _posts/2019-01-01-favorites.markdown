@@ -19,7 +19,7 @@ categories: favorites
 
 `07` <a href="https://www.imdb.com/title/tt0092005/?ref_=nv_sr_1?ref_=nv_sr_1"><image id="stand_poster" class="thumbWidth" src="{{ "/assets/images/stand_poster.png" | prepend: site.baseurl }}"></image><b> Stand By Me</b></a> (1986)
 
-`08` <a href="https://www.imdb.com/title/tt0080684/?ref_=nv_sr_1?ref_=nv_sr_1"><image id="star_wars_poster" class="thumbWidth" src="{{ "/assets/images/star_wars_poster.jpg" | prepend: site.baseurl }}"></image><b> Star Wars: The Empire Strikes Back</b></a> (1980)
+`08` <a href="https://www.imdb.com/title/tt0993842/?ref_=nv_sr_1?ref_=nv_sr_1"><image id="hanna_poster" class="thumbWidth" src="{{ "/assets/images/hanna_poster.jpg" | prepend: site.baseurl }}"></image><b> Hanna</b></a> (2011)
 
 `09` <a href="https://www.imdb.com/title/tt0081505/?ref_=nv_sr_1?ref_=nv_sr_1"><image id="shining_poster" class="thumbWidth" src="{{ "/assets/images/shining_poster.jpg" | prepend: site.baseurl }}"></image><b> The Shining</b></a> (1980)
 
