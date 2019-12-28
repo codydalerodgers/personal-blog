@@ -9,7 +9,7 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
-Uncut Gems ∙
+<span class="a24_color">**Uncut Gems**</span> ∙
 <span class="a24_color">**In Fabric**</span> ∙
 The Kill Team ∙
 <span class="a24_color">**Waves**</span> ∙
