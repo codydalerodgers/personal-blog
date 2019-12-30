@@ -9,13 +9,18 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
-Low Tide ∙
-The Lighthouse ∙
+<span class="a24_color">**Uncut Gems**</span> ∙
+<span class="a24_color">**In Fabric**</span> ∙
+The Kill Team ∙
+<span class="a24_color">**Waves**</span> ∙
+The Elephant Queen ∙
+<span class="a24_color">**Low Tide**</span> ∙
+<span class="a24_color">**The Lighthouse**</span> ∙
 <span class="a24_color">**The Death of Dick Long**</span> ∙
 <span class="a24_color">**Midsommar**</span> ∙
 <span class="a24_color">**The Last Black Man in San Francisco**</span> ∙
 <span class="a24_color">**The Farewell**</span> ∙
-Skin ∙
+<span class="a24_color">**Skin**</span> ∙
 <span class="a24_color">**Share**</span> ∙
 <span class="a24_color">**The Souvenir**</span> ∙
 <span class="a24_color">**Under the Silver Lake**</span> ∙
@@ -40,7 +45,7 @@ Outlaws ∙
 <span class="a24_color">**Mid90s**</span> ∙
 <span class="a24_color">**Eighth Grade**</span> ∙
 <span class="a24_color">**Hot Summer Nights**</span> ∙
-The Ballad of Lefty Brown ∙
+<span class="a24_color">**The Ballad of Lefty Brown**</span> ∙
 <span class="a24_color">**The Florida Project**</span> ∙
 <span class="a24_color">**Woodshock**</span> ∙
 <span class="a24_color">**Good Time**</span> ∙
@@ -50,7 +55,7 @@ The Ballad of Lefty Brown ∙
 The Lovers ∙
 <span class="a24_color">**Free Fire**</span> ∙
 <span class="a24_color">**The Blackcoat’s Daughter**</span> ∙
-Trespass Against Us ∙
+<span class="a24_color">**Trespass Against Us**</span> ∙
 <span class="a24_color">**Lady Bird**</span> ∙
 <span class="a24_color">**It Comes At Night**</span> ∙
 <span class="a24_color">**The Disaster Artist**</span> ∙
@@ -59,12 +64,12 @@ Trespass Against Us ∙
 The Monster ∙
 Supersonic ∙
 <span class="a24_color">**Moonlight**</span> ∙
-American Honey ∙
+<span class="a24_color">**American Honey**</span> ∙
 The Sea of Trees ∙
 <span class="a24_color">**Morris From America**</span> ∙
 Equals ∙
 De Palma ∙
-The Adderall Diaries ∙
+<span class="a24_color">**The Adderall Diaries**</span> ∙
 Remember ∙
 Mojave ∙
 <span class="a24_color">**The Lobster**</span> ∙
@@ -73,9 +78,9 @@ Mojave ∙
 <span class="a24_color">**The Witch**</span> ∙
 <span class="a24_color">**Into the Forest**</span> ∙
 <span class="a24_color">**Krisha**</span> ∙
-Mississippi Grind ∙
+<span class="a24_color">**Mississippi Grind**</span> ∙
 Dark Places ∙
-The End of the Tour ∙
+<span class="a24_color">**The End of the Tour**</span> ∙
 Barely Lethal ∙
 <span class="a24_color">**Slow West**</span> ∙
 Cut Bank ∙
@@ -87,7 +92,7 @@ Son of a Gun ∙
 <span class="a24_color">**A Most Violent Year**</span> ∙
 The Captive ∙
 <span class="a24_color">**Revenge of the Green Dragons**</span> ∙
-Laggies ∙
+<span class="a24_color">**Laggies**</span> ∙
 <span class="a24_color">**Tusk**</span> ∙
 <span class="a24_color">**The Rover**</span> ∙
 Obvious Child ∙
@@ -102,18 +107,18 @@ Obvious Child ∙
 <span class="a24_color">**Spring Breakers**</span>
 <div class="line_break"></div>
 <p style="text-align: center; font-style: italic; font-weight: bold;">Upcoming Projects</p>
-The Kill Team (Oct. 25) ∙
-Waves (Nov. 1) ∙
-In Fabric (Dec. 6) ∙
-Uncut Gems (Dec. 13) ∙
-First Cow (Mar. 6, '20) ∙
+First Cow (Mar. 6) ∙
 Saint Maud ∙
 After Yang ∙
+Bodies, Bodies, Bodies ∙
 False Positive ∙
 Green Knight ∙
 The Humans ∙
 Minari ∙
 On the Rocks ∙
+The Sky is Everywhere ∙
+Sour Hearts ∙
 The Souvenir Part II ∙
 Lila Neugebauer Project ∙
 Zola ∙
+Mike Mills Project

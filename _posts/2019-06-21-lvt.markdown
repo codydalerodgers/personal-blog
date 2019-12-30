@@ -5,7 +5,7 @@ date:   2019-06-21 10:07:00 -0500
 categories: films
 ---
 
-<image id="lars_logo" src="{{ "/assets/images/lvt.png" | prepend: site.baseurl }}"></image>
+<image id="lars_logo" class="logoSizing" src="{{ "/assets/images/lvt.png" | prepend: site.baseurl }}"></image>
 <br>
 <p style="text-align: center; font-style: italic">"A film should be like a rock in the shoe."</p>
 <br>

@@ -5,7 +5,7 @@ date:   2019-07-21 10:07:00 -0500
 categories: films
 ---
 
-<image id="claire_denis_logo" src="{{ "/assets/images/cd.png" | prepend: site.baseurl }}"></image>
+<image id="claire_denis_logo" class="logoSizing" src="{{ "/assets/images/cd.png" | prepend: site.baseurl }}"></image>
 <br>
 <p style="text-align: center; font-style: italic">"The cinema gives pleasure, certainly. But most of all for me, film-making is a journey into the impossible."</p>
 <br>

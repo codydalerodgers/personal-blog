@@ -5,7 +5,7 @@ date:   2019-07-22 7:07:00 -0500
 categories: books
 ---
 
-<image id="stephen_king_logo" src="{{ "/assets/images/sk.png" | prepend: site.baseurl }}"></image>
+<image id="stephen_king_logo" class="logoSizing" src="{{ "/assets/images/sk.png" | prepend: site.baseurl }}"></image>
 <br>
 <p style="text-align: center; font-style: italic">"Books are the perfect entertainment: no commercials, no batteries, hours of enjoyment for each dollar spent. What I wonder is why everybody doesn't carry a book around for those inevitable dead spots in life."</p>
 <br>

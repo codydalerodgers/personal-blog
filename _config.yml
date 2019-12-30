@@ -59,6 +59,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-thumbnail-generator
+  - jekyll-asset-path-plugin
 
 defaults:
   -
@@ -97,6 +99,16 @@ collections:
     shows:
       output: true
       permalink: /shows/:path/
+
+gallery:
+  - file: lotr_poster.png
+    title: Lord of the Rings Poster
+  - file: second-image.jpg
+    title: Second image file
+
+thumbnail_gallery:
+  width:  300
+  height: 180
 
 
 # Exclude from processing.

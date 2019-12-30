@@ -5,7 +5,7 @@ date:   2019-06-15 10:07:00 -0500
 categories: films
 ---
 
-<image id="pasolini_logo" src="{{ "/assets/images/ppp.png" | prepend: site.baseurl }}"></image>
+<image id="pasolini_logo" class="logoSizing" src="{{ "/assets/images/ppp.png" | prepend: site.baseurl }}"></image>
 <br>
 <p style="text-align: center; font-style: italic">"It's for everyone. For people like me."</p>
 <br>
