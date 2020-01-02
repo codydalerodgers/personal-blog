@@ -44,7 +44,7 @@ function setRotatingHeader(text) {
 }
 
 function setItemCount() {
-    Array.from(document.getElementsByClassName("item-count")).forEach(function(element) { 
+    Array.from(document.getElementsByClassName("item-count")).forEach(function(element) {
         $.ajax({ url: element.getAttribute("data-url"), success: function(data) {
             element.innerHTML = data.split("<code").length-1;
         }});
@@ -54,7 +54,7 @@ function setItemCount() {
 window.onload = function() {
     // Selection based on page location
     var path = window.location.pathname;
-    
+
     var highlight = "#fcdd5b";
     var heavy = "600";
     if (path.includes("books")) {

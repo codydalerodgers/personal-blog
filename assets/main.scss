@@ -14,13 +14,17 @@ $base-line-height:    1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$link-color:       #20437c;
-$background-color: #fdfdfd;
+$text-color:                  #111;
+$link-color:                  #20437c;
+$background-color:            #fdfdfd;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$filter-button-color:         #7293b2;
+$filter-button-color-dark:    darken($filter-button-color, 25%);
+$filter-button-border-color:  #7493af;
+
+$grey-color:                  #828282;
+$grey-color-light:            lighten($grey-color, 40%);
+$grey-color-dark:             darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    900px;
@@ -91,8 +95,20 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
- 
-.rating_images {
+
+.rating-head {
+    white-space: nowrap;
+}
+
+.rating-meaning {
+  padding-left: .5rem;
+}
+
+.rating-images {
+    height: 1em;
+}
+
+.emoji {
     height: 1em;
 }
 
@@ -551,10 +567,10 @@ table {
   color: #aaa
 }
 
-#expandable-box {
+.expandable-box {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   width: 100%;
   padding: 1% 1% 1% 1%;
   text-align: center;
@@ -565,6 +581,51 @@ table {
   font-family: monospace;
   -webkit-transition: 2s;
   transition: 2s;
+}
+
+#filter-box {
+  margin-top: 1%;
+  cursor: context-menu;
+}
+
+#additional-filters {
+  display: none;
+  margin-top: 1rem;
+}
+
+#arrow-button {
+  float: right;
+  cursor: pointer;
+  margin-left: -1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.filter-button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0% 1% 0% 1%;
+  background-color: $filter-button-color;
+  box-shadow: inset 0px 1px 4px 0px #fff;
+  border-radius: 3px;
+  font-family: monospace;
+  color: white;
+  white-space:nowrap;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $filter-button-border-color;
+}
+
+.filter-button:active {
+  background-color: $filter-button-color-dark;
+}
+
+.filter-button-clicked {
+  background-color: $filter-button-color-dark;
 }
 
 abbr {
