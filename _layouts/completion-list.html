@@ -5,14 +5,33 @@ layout: default
     <header class="list-header">
         <h1 class="list-title">{{ page.title }}</h1>
     </header>
-    <div id="expandable-box">
-        <span style="white-space:nowrap;">{{ site.one }} Awful </span>
-        <span style="white-space:nowrap;">{{ site.two }} Mediocre </span>
-        <span style="white-space:nowrap;">{{ site.three }} Good </span>
-        <span style="white-space:nowrap;">{{ site.four }} Excellent </span>
-        <span style="white-space:nowrap;">{{ site.five }} G.O.A.T. </span>
+    <div class="expandable-box">
+        <span class="rating-head rating-half hidden">{{ site.r05 }}<span class="rating-meaning" value="/half.png" meaning="The Worst">The Worst</span></span>
+        <span class="rating-head">{{ site.r1 }}<span class="rating-meaning" value="/one.png" meaning="Awful">Awful</span></span>
+        <span class="rating-head rating-half hidden">{{ site.r15 }}<span class="rating-meaning" value="/onehalf.png" meaning="Bad">Bad</span></span>
+        <span class="rating-head">{{ site.r2 }}<span class="rating-meaning" value="/two.png" meaning="Awful" meaning="Mediocre">Mediocre</span></span>
+        <span class="rating-head rating-half hidden">{{ site.r25 }}<span class="rating-meaning" value="/twohalf.png" meaning="Ok/Average">Ok/Average</span></span>
+        <span class="rating-head">{{ site.r3 }}<span class="rating-meaning" value="/three.png" meaning="Good">Good</span></span>
+        <span class="rating-head rating-half hidden">{{ site.r35 }}<span class="rating-meaning" value="/threehalf.png" meaning="Great">Great</span></span>
+        <span class="rating-head">{{ site.r4 }}<span class="rating-meaning" value="/four.png" meaning="Excellent">Excellent</span></span>
+        <span class="rating-head rating-half hidden">{{ site.r45 }}<span class="rating-meaning" value="/fourhalf.png" meaning="Near Perfect">Near Perfect</span></span>
+        <span class="rating-head">{{ site.r5 }}<span class="rating-meaning" value="/five.png" meaning="G.O.A.T.">G.O.A.T.</span></span>
     </div>
-    <div class="list-content">
+    <div class="expandable-box" id="filter-box">
+        <img class="emoji" id="arrow-button" src="{{ "/assets/images/down_arrow.png" | prepend: site.baseurl }}" onclick="filterArrow()">
+        <span class="filter-button" onclick="filterClicked(this, 'FAVORABLE')">Favorable</span>
+        <span class="filter-button" onclick="filterClicked(this, 'AVERAGE')">Average</span>
+        <span class="filter-button" onclick="filterClicked(this, 'UNFAVORABLE')">Unfavorable</span>
+        <div id="additional-filters">
+            {% if page.category == "films" %}
+                <span class="filter-button" onclick="filterClicked(this, 'CURRENT_YEAR')">Released Current Year</span>
+                <span class="filter-button" onclick="filterClicked(this, 'FAVORITES')">Favorites</span>
+                <span class="filter-button" onclick="filterClicked(this, 'THEATER')">Theater</span>
+                <span class="filter-button" onclick="filterClicked(this, 'Rewatched')">Rewatched</span>
+            {% endif %}
+        </div>
+    </div>
+    <div class="list-content filterable" id="content">
         {{ content }}
     </div>
 </article>
