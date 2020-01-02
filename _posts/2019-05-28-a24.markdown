@@ -85,7 +85,7 @@ Barely Lethal ∙
 <span class="a24_color">**Slow West**</span> ∙
 Cut Bank ∙
 <span class="a24_color">**While We’re Young**</span> ∙
-Son of a Gun ∙
+<span class="a24_color">**Son of a Gun**</span>  ∙
 <span class="a24_color">**Amy**</span> ∙
 <span class="a24_color">**Ex Machina**</span> ∙
 <span class="a24_color">**Room**</span> ∙
