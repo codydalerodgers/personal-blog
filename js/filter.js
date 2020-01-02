@@ -14,9 +14,9 @@ function filterArrow() {
 
     $("#additional-filters").slideToggle();
 
+    filterElements(lastFilter);
     updateRatingImages();
     setRatingMeanings();
-    filterElements(lastFilter);
 }
 
 function updateRatingImages() {
