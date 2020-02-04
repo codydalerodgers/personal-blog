@@ -32,6 +32,7 @@ r45:        <image class="rating-images" src="/assets/images/fourhalf.png"></ima
 r5:         <image class="rating-images" src="/assets/images/five.png"></image>
 ip:         <span style="white-space:nowrap;"><image class="emoji" src="/assets/images/stars.png">(in progress)<image class="emoji" src="/assets/images/stars.png"><span>
 rw:         <abbr title="Rewatched"><image class="emoji" src="/assets/images/repeat_arrows.png"></image></abbr>
+sh:         <abbr title="Short"><image class="emoji" src="/assets/images/short.png"></image></abbr>
 tr:         <abbr title="Theatre"><image class="emoji" src="/assets/images/theater.png"></image></abbr>
 cy:         <div class="currentYear" hidden>currentYear</div>
 
