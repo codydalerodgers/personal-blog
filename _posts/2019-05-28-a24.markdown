@@ -9,6 +9,8 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
+Saint Maud ∙
+First Cow ∙
 <span class="a24_color">**Uncut Gems**</span> ∙
 <span class="a24_color">**In Fabric**</span> ∙
 The Kill Team ∙
@@ -107,8 +109,6 @@ Obvious Child ∙
 <span class="a24_color">**Spring Breakers**</span>
 <div class="line_break"></div>
 <p style="text-align: center; font-style: italic; font-weight: bold;">Upcoming Projects</p>
-First Cow (Mar. 6) ∙
-Saint Maud ∙
 After Yang ∙
 Bodies, Bodies, Bodies ∙
 False Positive ∙
