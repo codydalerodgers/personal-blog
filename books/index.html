@@ -6,7 +6,7 @@ permalink: /books/
 <div class="year-list">
     <ul>
     {% for year in site.books reversed %}
-        <li><a href="{{ year.url | prepend: site.baseurl }}" class="year-link">{{ year.short-title }} (<span class="item-count" data-url="{{ year.url | prepend: site.baseurl }}"></span> read)</a></li>
+        <li><a href="{{ year.url | prepend: site.baseurl }}" class="year-link">{{ year.short-title }} (<span class="item-count" data-url="{{ year.url | prepend: site.baseurl }}"></span> books read)</a></li>
     {% endfor %}
     </ul>
 </div>
