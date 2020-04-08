@@ -13,7 +13,7 @@ Saint Maud ∙
 First Cow ∙
 <span class="a24_color">**Uncut Gems**</span> ∙
 <span class="a24_color">**In Fabric**</span> ∙
-The Kill Team ∙
+<span class="a24_color">**The Kill Team**</span> ∙
 <span class="a24_color">**Waves**</span> ∙
 The Elephant Queen ∙
 <span class="a24_color">**Low Tide**</span> ∙
@@ -27,7 +27,7 @@ The Elephant Queen ∙
 <span class="a24_color">**The Souvenir**</span> ∙
 <span class="a24_color">**Under the Silver Lake**</span> ∙
 <span class="a24_color">**The Hole in the Ground**</span> ∙
-Outlaws ∙
+<span class="a24_color">**Outlaws**</span> ∙
 <span class="a24_color">**Climax**</span> ∙
 <span class="a24_color">**High Life**</span> ∙
 <span class="a24_color">**Gloria Bell**</span> ∙
