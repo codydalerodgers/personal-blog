@@ -97,7 +97,7 @@ The Captive ∙
 <span class="a24_color">**Laggies**</span> ∙
 <span class="a24_color">**Tusk**</span> ∙
 <span class="a24_color">**The Rover**</span> ∙
-Obvious Child ∙
+<span class="a24_color">**Obvious Child**</span> ∙
 <span class="a24_color">**Locke**</span> ∙
 <span class="a24_color">**Under the Skin**</span> ∙
 <span class="a24_color">**Enemy**</span> ∙
