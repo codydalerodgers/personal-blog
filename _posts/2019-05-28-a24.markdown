@@ -15,7 +15,7 @@ First Cow ∙
 <span class="a24_color">**In Fabric**</span> ∙
 <span class="a24_color">**The Kill Team**</span> ∙
 <span class="a24_color">**Waves**</span> ∙
-The Elephant Queen ∙
+<span class="a24_color">**The Elephant Queen**</span> ∙
 <span class="a24_color">**Low Tide**</span> ∙
 <span class="a24_color">**The Lighthouse**</span> ∙
 <span class="a24_color">**The Death of Dick Long**</span> ∙
