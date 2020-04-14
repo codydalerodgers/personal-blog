@@ -1,18 +1,56 @@
 ---
 layout: post
 title:  "Apple TV"
-date:   2021-04-09 02:00:00 -0500
+date:   2020-04-13 02:00:00 -0500
 ---
 
 <image id="apple-tv-plus-logo" src="{{ "/assets/images/apple_tv.png" | prepend: site.baseurl }}"></image>
 <br>
 <p style="text-align: center; font-style: italic">"I want you to feel a bit uncomfortable, be able to enjoy them, be intrigued, start to think about the meaning of things - and hopefully by the end of it, you'll have some strong desire to keep thinking about them."</p>
 <br>
-My Best Friend ∙
-Kinetta ∙
-<span class="yl_color">**Dogtooth**</span> ∙
-Attenberg ∙
-Alps ∙
-<span class="yl_color">**The Lobster**</span> ∙
-<span class="yl_color">**The Killing of a Sacred Deer**</span> ∙
-<span class="yl_color">**The Favourite**</span>
+
+## Original Series
+Little America ∙
+Mythic Quest: Raven's Banquet ∙
+Visible: Out on Television ∙
+Home ∙
+Oprah's Book Club ∙
+Oprah Talks COVID-19 ∙
+For All Mankind ∙
+Truth Be Told ∙
+<span class="apple_color">**The Morning Show**</span> ∙
+Amazing Stories ∙
+Home Before Dark ∙
+<span class="apple_color">**See**</span> ∙
+<span class="apple_color">**Servant**</span> ∙
+<span class="apple_color">**Dickinson**</span>
+<br>
+<br>
+<b>_Upcoming Projects_</b>
+<br>
+Defending Jacob ∙
+Trying ∙
+Central Park ∙
+Dear...
+<br>
+<br>
+<br>
+
+## Original Films
+Here We Are: Notes for Living on Planet Earth ∙
+The Banker ∙
+<span class="apple_color">**Hala**</span> ∙
+<span class="apple_color">**The Elephant Queen**</span> ∙
+<br>
+<br>
+<b>_Upcoming Projects_</b>
+<br>
+Beastie Boys Story
+<br>
+<br>
+<br>
+
+## Children's
+Ghostwriter ∙
+Helpsters ∙
+Snoopy In Space
