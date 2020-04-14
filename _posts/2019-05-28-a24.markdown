@@ -5,7 +5,7 @@ date:   2020-04-14 01:07:00 -0500
 categories: films
 ---
 
-<image id="a24_films_logo" src="{{ "/assets/images/A24_Films_logo.png" | prepend: site.baseurl }}"></image>
+<image id="a24_films_logo" class="logoSizing" src="{{ "/assets/images/A24_Films_logo.png" | prepend: site.baseurl }}"></image>
 <br>
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>

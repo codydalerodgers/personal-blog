@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Apple TV"
+title:  "Apple TV+"
 date:   2020-04-13 02:00:00 -0500
 ---
 
-<image id="apple-tv-plus-logo" src="{{ "/assets/images/apple_tv.png" | prepend: site.baseurl }}"></image>
-<br>
-<p style="text-align: center; font-style: italic">"I want you to feel a bit uncomfortable, be able to enjoy them, be intrigued, start to think about the meaning of things - and hopefully by the end of it, you'll have some strong desire to keep thinking about them."</p>
+<image id="apple-tv-plus-logo" class="logoSizing" src="{{ "/assets/images/apple_tv.png" | prepend: site.baseurl }}"></image>
 <br>
 
 ## Original Series
@@ -34,7 +32,6 @@ Central Park ∙
 Dear...
 <br>
 <br>
-<br>
 
 ## Original Films
 Here We Are: Notes for Living on Planet Earth ∙
@@ -46,7 +43,6 @@ The Banker ∙
 <b>_Upcoming Projects_</b>
 <br>
 Beastie Boys Story
-<br>
 <br>
 <br>
 
