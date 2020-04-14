@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A24"
-date:   2019-05-28 10:07:00 -0500
+date:   2020-04-14 01:07:00 -0500
 categories: films
 ---
 
@@ -54,7 +54,7 @@ First Cow ∙
 <span class="a24_color">**Menashe**</span> ∙
 <span class="a24_color">**A Ghost Story**</span> ∙
 <span class="a24_color">**The Exception**</span> ∙
-The Lovers ∙
+<span class="a24_color">**The Lovers**</span> ∙
 <span class="a24_color">**Free Fire**</span> ∙
 <span class="a24_color">**The Blackcoat’s Daughter**</span> ∙
 <span class="a24_color">**Trespass Against Us**</span> ∙
@@ -70,7 +70,7 @@ Supersonic ∙
 The Sea of Trees ∙
 <span class="a24_color">**Morris From America**</span> ∙
 Equals ∙
-De Palma ∙
+<span class="a24_color">**De Palma**</span> ∙
 <span class="a24_color">**The Adderall Diaries**</span> ∙
 Remember ∙
 <span class="a24_color">**Mojave**</span>  ∙
