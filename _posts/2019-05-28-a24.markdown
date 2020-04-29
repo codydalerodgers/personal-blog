@@ -69,7 +69,7 @@ First Cow ∙
 <span class="a24_color">**American Honey**</span> ∙
 The Sea of Trees ∙
 <span class="a24_color">**Morris From America**</span> ∙
-Equals ∙
+<span class="a24_color">**Equals**</span> ∙
 <span class="a24_color">**De Palma**</span> ∙
 <span class="a24_color">**The Adderall Diaries**</span> ∙
 Remember ∙
