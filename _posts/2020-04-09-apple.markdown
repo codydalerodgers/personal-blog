@@ -8,10 +8,12 @@ date:   2020-04-13 02:00:00 -0500
 <br>
 
 ## Original Series
-Little America ∙
+Defending Jacob ∙
+Trying ∙
+<span class="apple_color">**Little America**</span> ∙
 Mythic Quest: Raven's Banquet ∙
 Visible: Out on Television ∙
-Home ∙
+<span class="apple_color">**Home**</span> ∙
 Oprah's Book Club ∙
 Oprah Talks COVID-19 ∙
 For All Mankind ∙
@@ -26,8 +28,6 @@ Home Before Dark ∙
 <br>
 <b>_Upcoming Projects_</b>
 <br>
-Defending Jacob ∙
-Trying ∙
 Central Park ∙
 Dear...
 <br>
@@ -49,4 +49,4 @@ Beastie Boys Story
 ## Children's
 Ghostwriter ∙
 Helpsters ∙
-Snoopy In Space
+<span class="apple_color">**Snoopy In Space**</span>
