@@ -85,7 +85,7 @@ Remember ∙
 <span class="a24_color">**The End of the Tour**</span> ∙
 Barely Lethal ∙
 <span class="a24_color">**Slow West**</span> ∙
-Cut Bank ∙
+<span class="a24_color">**Cut Bank**</span> ∙
 <span class="a24_color">**While We’re Young**</span> ∙
 <span class="a24_color">**Son of a Gun**</span>  ∙
 <span class="a24_color">**Amy**</span> ∙
