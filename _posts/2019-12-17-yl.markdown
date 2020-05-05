@@ -12,7 +12,6 @@ categories: films
 My Best Friend ∙
 Kinetta ∙
 <span class="yl_color">**Dogtooth**</span> ∙
-Attenberg ∙
 Alps ∙
 <span class="yl_color">**The Lobster**</span> ∙
 <span class="yl_color">**The Killing of a Sacred Deer**</span> ∙

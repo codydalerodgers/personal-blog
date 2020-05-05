@@ -12,7 +12,7 @@ categories: films
 The French Dispatch ∙
 <span class="tc_color">**Little Women**</span> ∙
 <span class="tc_color">**The King**</span> ∙
-A Rainy Day in New York ∙
+<span class="tc_color">**A Rainy Day in New York**</span> ∙
 <span class="tc_color">**Beautiful Boy**</span> ∙
 <span class="tc_color">**Lady Bird**</span> ∙
 <span class="tc_color">**Hot Summer Nights**</span> ∙
