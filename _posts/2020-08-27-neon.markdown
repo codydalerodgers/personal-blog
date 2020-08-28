@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Neon"
+date:   2020-08-27 02:07:00 -0500
+categories: films
+---
+
+<image id="neon-logo" class="logoSizing" src="{{ "/assets/images/nn.png" | prepend: site.baseurl }}"></image>
+<br>
+<p style="text-align: center; font-style: italic">"NEON Rated."</p>
+<br>
+Ammonite ∙
+Possessor ∙
+You Cannot Kill David Arquette ∙
+She Dies Tomorrow ∙
+Palm Springs ∙
+<span class="nn_color">**Shirley**</span> ∙
+The Painter and the Thief ∙
+Spaceship Earth ∙
+Big Time Adolescence ∙
+<span class="nn_color">**The Lodge**</span> ∙
+<span class="nn_color">**Clemency**</span> ∙
+<span class="nn_color">**Portrait of a Lady on Fire**</span> ∙
+<span class="nn_color">**Parasite**</span> ∙
+Little Monsters ∙
+Monos ∙
+Luce ∙
+Honeyland ∙
+<span class="nn_color">**Wild Rose**</span> ∙
+This One's for the Ladies ∙
+The Biggest Little Farm ∙
+Little Woods ∙
+Amazing Grace ∙
+Apollo 11 ∙
+<span class="nn_color">**Vox Lux**</span> ∙
+Bodied ∙
+Border ∙
+Assassination Nation ∙
+Sharp Edges ∙
+Three Identical Strangers ∙
+Revenge ∙
+Borg vs McEnroe ∙
+<span class="nn_color">**I, Tonya**</span> ∙
+<span class="nn_color">**Beach Rats**</span> ∙
+The B-Side ∙
+The Bad Batch ∙
+Risk
+Colossal
