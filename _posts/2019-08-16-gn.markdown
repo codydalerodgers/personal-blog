@@ -9,7 +9,7 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"My characters are never heroic. They are mostly lost and trying to find the right door to open and they end up opening the wrong doors."</p>
 <br>
-Lux Aeterna ∙
+<span class="gn_color">**Lux Aeterna** ∙
 <span class="gn_color">**Climax**</span> ∙
 <span class="gn_color">**Love**</span> ∙
 <span class="gn_color">**Enter the Void**</span> ∙

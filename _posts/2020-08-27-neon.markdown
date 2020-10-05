@@ -35,7 +35,7 @@ Apollo 11 ∙
 <span class="nn_color">**Vox Lux**</span> ∙
 Bodied ∙
 Border ∙
-Assassination Nation ∙
+<span class="nn_color">**Assassination Nation** ∙
 Sharp Edges ∙
 Three Identical Strangers ∙
 Revenge ∙
