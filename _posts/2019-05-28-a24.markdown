@@ -11,6 +11,7 @@ categories: films
 <br>
 Saint Maud ∙
 First Cow ∙
+<span class="a24_color">**Minari**</span> ∙
 <span class="a24_color">**Uncut Gems**</span> ∙
 <span class="a24_color">**In Fabric**</span> ∙
 <span class="a24_color">**The Kill Team**</span> ∙
@@ -114,7 +115,6 @@ Bodies, Bodies, Bodies ∙
 False Positive ∙
 Green Knight ∙
 The Humans ∙
-Minari ∙
 On the Rocks ∙
 The Sky is Everywhere ∙
 Sour Hearts ∙
