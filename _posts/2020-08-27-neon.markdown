@@ -10,7 +10,7 @@ categories: films
 <p style="text-align: center; font-style: italic">"NEON Rated."</p>
 <br>
 Ammonite ∙
-Possessor ∙
+<span class="nn_color">**Possessor**</span> ∙
 You Cannot Kill David Arquette ∙
 She Dies Tomorrow ∙
 Palm Springs ∙

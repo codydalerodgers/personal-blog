@@ -10,8 +10,8 @@ categories: films
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
 Saint Maud ∙
-First Cow ∙
-On the Rocks ∙
+<span class="a24_color">**First Cow**</span> ∙
+<span class="a24_color">**On the Rocks**</span> ∙
 <span class="a24_color">**Minari**</span> ∙
 <span class="a24_color">**Uncut Gems**</span> ∙
 <span class="a24_color">**In Fabric**</span> ∙
@@ -74,7 +74,7 @@ The Sea of Trees ∙
 <span class="a24_color">**Equals**</span> ∙
 <span class="a24_color">**De Palma**</span> ∙
 <span class="a24_color">**The Adderall Diaries**</span> ∙
-Remember ∙
+<span class="a24_color">**Remember**</span> ∙
 <span class="a24_color">**Mojave**</span>  ∙
 <span class="a24_color">**The Lobster**</span> ∙
 <span class="a24_color">**Green Room**</span> ∙
