@@ -9,7 +9,7 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
-Saint Maud ∙
+<span class="a24_color">**Saint Maud**</span> ∙
 <span class="a24_color">**First Cow**</span> ∙
 <span class="a24_color">**On the Rocks**</span> ∙
 <span class="a24_color">**Minari**</span> ∙
@@ -111,10 +111,12 @@ The Captive ∙
 <span class="a24_color">**Spring Breakers**</span>
 <div class="line_break"></div>
 <p style="text-align: center; font-style: italic; font-weight: bold;">Upcoming Projects</p>
+Pleasure ∙
+False Positive ∙
 After Yang ∙
 Bodies, Bodies, Bodies ∙
 False Positive ∙
-Green Knight ∙
+The Green Knight ∙
 The Humans ∙
 The Sky is Everywhere ∙
 Sour Hearts ∙
