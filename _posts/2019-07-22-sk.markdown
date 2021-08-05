@@ -9,9 +9,12 @@ categories: books
 <br>
 <p style="text-align: center; font-style: italic">"Books are the perfect entertainment: no commercials, no batteries, hours of enjoyment for each dollar spent. What I wonder is why everybody doesn't carry a book around for those inevitable dead spots in life."</p>
 <br>
+<span class="sk_color">**Billy Summers**</span> ∙ 
+<span class="sk_color">**Later**</span> ∙ 
 If It Bleeds ∙ 
 <span class="sk_color">**The Institute**</span> ∙ 
 The Outsider ∙ 
+Flight or Fright ∙ 
 <span class="sk_color">**Elevation**</span> ∙ 
 <span class="sk_color">**Gwendy's Button Box**</span> ∙ 
 Sleeping Beauties ∙ 
