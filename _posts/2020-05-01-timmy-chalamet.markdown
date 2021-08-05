@@ -9,6 +9,8 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"I think it's the job of any actor to be as raw as possible and make yourself an open wound."</p>
 <br>
+Don't Look Up ∙
+Dune ∙
 The French Dispatch ∙
 <span class="tc_color">**Little Women**</span> ∙
 <span class="tc_color">**The King**</span> ∙

@@ -9,6 +9,9 @@ categories: films
 <br>
 <p style="text-align: center; font-style: italic">"It’s crazy that there is an article about a distribution company. That’s completely nuts."</p>
 <br>
+<span class="a24_color">**The Green Knight**</span> ∙
+<span class="a24_color">**Zola**</span> ∙
+<span class="a24_color">**False Positive**</span> ∙
 <span class="a24_color">**Saint Maud**</span> ∙
 <span class="a24_color">**First Cow**</span> ∙
 <span class="a24_color">**On the Rocks**</span> ∙
@@ -85,7 +88,7 @@ The Sea of Trees ∙
 <span class="a24_color">**Mississippi Grind**</span> ∙
 <span class="a24_color">**Dark Places**</span> ∙
 <span class="a24_color">**The End of the Tour**</span> ∙
-Barely Lethal ∙
+<span class="a24_color">**Barely Lethal**</span> ∙
 <span class="a24_color">**Slow West**</span> ∙
 <span class="a24_color">**Cut Bank**</span> ∙
 <span class="a24_color">**While We’re Young**</span> ∙
@@ -112,15 +115,12 @@ The Captive ∙
 <div class="line_break"></div>
 <p style="text-align: center; font-style: italic; font-weight: bold;">Upcoming Projects</p>
 Pleasure ∙
-False Positive ∙
 After Yang ∙
 Bodies, Bodies, Bodies ∙
 False Positive ∙
-The Green Knight ∙
 The Humans ∙
 The Sky is Everywhere ∙
 Sour Hearts ∙
 The Souvenir Part II ∙
 Lila Neugebauer Project ∙
-Zola ∙
 Mike Mills Project
